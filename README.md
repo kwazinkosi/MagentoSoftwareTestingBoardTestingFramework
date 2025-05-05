@@ -12,7 +12,7 @@ A test automation framework built for testing the Magento Software Testing Board
 1. Prerequisites:
    - Java JDK 11 or higher
    - Maven 3.8.x or higher
-   - Chrome/Firefox browser
+   - Chrome/Egde/Firefox browser
    - Git
 
 2. Installation:
