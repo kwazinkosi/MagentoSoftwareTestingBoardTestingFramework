@@ -1,0 +1,20 @@
+<suite name="Checkout_Flow_Suite" parallel="methods" thread-count="3">
+
+	<listeners>
+		<listener class-name="listeners.ReportListener" />
+	</listeners>
+	<test name="Checkout Tests">
+		<classes>
+			<!-- Cart -->
+			<class name="tests.pages.CartPageTests">
+				<methods>
+					<include name="testCartItemCount" />
+					<include name="testProceedToCheckout" />
+				</methods>
+			</class>
+			<!-- Checkout Steps -->
+			<class name="tests.pages.CheckoutPageTests" />
+			<class name="tests.pages.CheckoutOverviewPageTests" />
+		</classes>
+	</test>
+</suite>

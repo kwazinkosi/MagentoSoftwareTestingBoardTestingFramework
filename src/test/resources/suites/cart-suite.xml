@@ -1,0 +1,20 @@
+<suite name="Cart_Management_Suite">
+
+	<listeners>
+		<listener class-name="listeners.ReportListener" />
+	</listeners>
+
+	<test name="Cart Tests">
+		<classes>
+			<!-- Cart Page Tests -->
+			<class name="tests.pages.CartPageTests">
+				<methods>
+					<include name="testRemoveProductFromCart" />
+					<include name="testCartContainsAddedProduct" />
+					<include name="testCartItemCount" />
+					<include name="testProceedToCheckout" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite" verbose="1"   parallel="classes" thread-count="5">
+    <!-- ================== -->
+    <!-- Global Configurations -->
+    <!-- ================== -->
+    <listeners>
+        <listener class-name="listeners.ReportListener"/>
+    </listeners>
+
+    <!-- ================== -->
+    <!-- Test Organization -->
+    <!-- ================== -->
+    
+    <!-- Core Functionality Tests -->
+    <test name="magento_regression">
+        <classes>
+        <class name="tests.pages.LandingPageTests"/>
+            <class name="tests.pages.CreateAccountPageTests"/>
+            <class name="tests.pages.SignInPageTests"/>
+            <class name="tests.pages.HomePageTests"/>
+            <class name="tests.pages.CartPageTests"/>
+            <class name="tests.pages.CheckoutPageTests"/>
+            <class name="tests.pages.CheckoutOverviewPageTests"/>
+        </classes>
+    </test>
+
+</suite>

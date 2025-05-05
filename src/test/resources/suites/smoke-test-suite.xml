@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke_Test_Suite" parallel="methods" thread-count="5">
+
+	<listeners>
+		<listener class-name="listeners.ReportListener" />
+	</listeners>
+
+	<test name="Critical Paths">
+		<classes>
+			<!-- Login -->
+			<class name="tests.pages.SignInPageTests">
+				<methods>
+					<include name="testLoginFunctionality" />
+				</methods>
+			</class>
+
+			<!-- Add Item to Cart -->
+			<class name="tests.pages.LandingPageTests">
+				<methods>
+					<include name="testNavbarComponents" />
+					<include name="testSearchFunctionality" />
+				</methods>
+			</class>
+
+			<!-- Checkout Flow -->
+			<class name="tests.pages.CheckoutPageTests">
+				<methods>
+					<include name="testCheckoutPageProceedToOverview" />
+				</methods>
+			</class>
+
+			<!-- Checkout Overview -->
+			<class name="tests.pages.CheckoutOverviewPageTests">
+				<methods>
+					<include name="testCheckoutCompletion" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
