@@ -98,8 +98,8 @@ public class SignInPageTests extends BaseTest {
 			LoggingManager.info("Login failed as expected.");
 		}
 		
-	    logStep("Test case " + data.getTestCaseId() + " PASSED!");
-	    LoggingManager.info(data.getTestCaseId() + " in LoginPageTest::testLoginFunctionality PASSED!");
+	    logStep("Test case " + data.getTestCaseId() + " PASSED! =====");
+	    LoggingManager.info("========= "+data.getTestCaseId() + " in LoginPageTest::testLoginFunctionality PASSED! ========= ");
 	}
 	
 }

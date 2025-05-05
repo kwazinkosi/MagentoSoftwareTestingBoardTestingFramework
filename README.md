@@ -31,10 +31,12 @@ Ensure you're in the project's root directory, where the pom.xml file is located
 You can run the test suites using Maven by executing the following commands:
 
 ```sh
-mvn test -Psmoke       # Run smoke tests
-mvn test -Pcheckout    # Run checkout tests
-mvn test -Pcart        # Run cart tests
-mvn test -Pcross			# Run cross browser tests (Chrome + Firefox + Edge)
+mvn test -Psmoke       	 # Run smoke tests
+mvn test -Pcheckout    	 # Run checkout tests
+mvn test -Pcart        	 # Run cart tests  		
+mvn test -Pregression  	 # Run regression tests  		
+mvn test -Pcross       	 # Run cross browser tests (Chrome + Firefox + Edge)  
+
 ```
 ### Running in Eclipse
 
@@ -141,7 +143,8 @@ SourceDemo/
 ## Configuration
 
 ### Config Files
-**Test Data:** Located in the `src/test/resources/data/` directory.
+**Test Data:** Located in the `src/test/resources/data/` directory. The `test-data.xlsx` contains 4 excel sheets.
+
 - `src/main/resources/config.properties`: Main configuration file
 - `testng.xml`: Test suite configuration
 

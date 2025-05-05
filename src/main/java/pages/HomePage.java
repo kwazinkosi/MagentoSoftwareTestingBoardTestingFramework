@@ -63,7 +63,7 @@ public class HomePage extends BasePage
 	}
 	
 	public String getLoggedInUser() {
-		WebElement loggedInUserr = driver.findElement(By.xpath("//div[@class='panel header']//span[@class='logged-in']"));
+		WebElement loggedInUserr = driver.findElement(By.xpath("//div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]"));
 		return getText(loggedInUserr);
 	}
 	

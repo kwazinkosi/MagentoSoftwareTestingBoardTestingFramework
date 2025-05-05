@@ -62,7 +62,8 @@ public class SignInPage extends BasePage {
 	private BasePage clickLoginButton() {
 		try {
 			clickElement(loginButton);
-			List<WebElement> errorMessages = driver.findElements(By.xpath("//div[@class = 'mage-error']"));
+			List<WebElement> errorMessages = driver.findElements(
+					By.xpath("//div[@class = 'mage-error' or @data-bind='html: $parent.prepareMessageForHtml(message.text)']"));
 			if (errorMessages.size() > 0) {
 				return this;
 			} else {
@@ -76,7 +77,8 @@ public class SignInPage extends BasePage {
 
 	public List<String> getErrorMessages() {
 		try {
-			List<WebElement> errorMessages = driver.findElements(By.xpath("//div[@class = 'mage-error']"));
+			List<WebElement> errorMessages = driver.findElements(
+					By.xpath("//div[@class = 'mage-error' or @data-bind='html: $parent.prepareMessageForHtml(message.text)']"));
 			return errorMessages.stream().map(WebElement::getText).toList();
 		} catch (TimeoutException e) {
 			return null;
