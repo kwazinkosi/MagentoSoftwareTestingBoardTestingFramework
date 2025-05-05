@@ -1,7 +1,5 @@
 # MagentoSoftwareTestingBoardTestingFramework
 
-# MagentoSoftwareTestingBoardTestingFramework
-
 ## Framework Overview
 A test automation framework built for testing the Magento Software Testing Board, utilizing:
 - Java as the primary programming language
