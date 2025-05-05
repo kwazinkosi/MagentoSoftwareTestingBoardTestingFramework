@@ -17,7 +17,7 @@ public class LoginSheetConfig implements SheetConfig<LoginTestData> {
 
     @Override
     public String[] getExpectedHeaders() {
-        return new String[]{"TestCaseID", "Username", "Password", "ExpectedResult"};
+        return new String[]{"TestCaseID", "EmailAddress", "Password", "ExpectedResult"};
     }
 
     @Override

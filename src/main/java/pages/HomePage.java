@@ -2,11 +2,11 @@ package pages;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import constants.WaitTime;
 
 public class HomePage extends BasePage
 {
@@ -19,6 +19,9 @@ public class HomePage extends BasePage
 	
 	@FindBy(xpath = "//span[@class='toolbar-number']")
 	private WebElement orderCount; // order count 
+	
+	@FindBy(xpath = "//div[@class='panel header']//span[@class='logged-in']")
+	private WebElement loggedInUser; // logged in user name
 	
 	public HomePage(WebDriver driver) {
         super(driver);
@@ -59,9 +62,14 @@ public class HomePage extends BasePage
 		}
 	}
 	
+	public String getLoggedInUser() {
+		WebElement loggedInUserr = driver.findElement(By.xpath("//div[@class='panel header']//span[@class='logged-in']"));
+		return getText(loggedInUserr);
+	}
+	
 	@Override
 	public boolean isPageDisplayed() {
-		return customWait.until(d -> d.getCurrentUrl().contains("customer/account/index/"), WaitTime.NORMAL);
+		return isElementDisplayed(loggedInUser);
 	}
 
 	public HomePage navigateToHomePage() {

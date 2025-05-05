@@ -21,6 +21,7 @@ public class HomePageTests extends BaseTest {
 		logStep("Home page is displayed correctly.");
 	}
 
+	
 	@Test(priority = 1, enabled = true, description = "Verify that the user can click on a menu item and navigate to the correct page")
 	public void testClickMenuItem() {
 		

@@ -6,15 +6,15 @@
 	<test name="Checkout Tests">
 		<classes>
 			<!-- Cart -->
-			<class name="tests.pages.CartPageTests">
+			<class name= "tests.pages.CartPageTests">
 				<methods>
-					<include name="testCartItemCount" />
-					<include name="testProceedToCheckout" />
+					<include name= "testCartItemCount" />
+					<include name= "testProceedToCheckout" />
 				</methods>
 			</class>
 			<!-- Checkout Steps -->
-			<class name="tests.pages.CheckoutPageTests" />
-			<class name="tests.pages.CheckoutOverviewPageTests" />
+			<class name= "tests.pages.CheckoutPageTests" />
+			<class name= "tests.pages.CheckoutOverviewPageTests" />
 		</classes>
 	</test>
 </suite>

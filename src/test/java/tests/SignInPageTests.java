@@ -68,8 +68,11 @@ public class SignInPageTests extends BaseTest {
 		LoggingManager.info("Checking if login was successful");
 		if (currentPage != null && currentPage instanceof HomePage) {
 			
+			String expectedMessage = data.getExpectedResult();
+		    String actualMessage = ((HomePage) currentPage).getLoggedInUser();
 			Assert.assertTrue(currentPage instanceof HomePage, "Login was not successful");
 			Assert.assertTrue(currentPage.isPageDisplayed(), "Login page not displayed");
+			Assert.assertTrue(actualMessage.contains(expectedMessage), "Expected message not displayed");
 			logStep("Login was successful.");
 			LoggingManager.info("Login was successful.");
 		} 
