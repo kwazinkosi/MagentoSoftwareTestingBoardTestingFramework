@@ -78,6 +78,7 @@ public class CartPage extends BasePage {
 	public BasePage proceedToCheckout() {
 
 		try {
+			scrollToElement(checkoutButton);
 			customWait.waitForVisibility(checkoutButton);
 			if (!checkoutButton.isDisplayed()) {
 				return this;

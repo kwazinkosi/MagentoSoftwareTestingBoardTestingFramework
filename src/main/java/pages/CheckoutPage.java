@@ -35,6 +35,7 @@ public class CheckoutPage extends BasePage {
 	public BasePage continueToOverview() {
 
 		try {
+			scrollToElement(continueButton);
 			clickElement(continueButton);
 			customWait.until(ExpectedConditions.urlContains("checkout/#payment"), WaitTime.NORMAL);
 			return new CheckoutOverviewPage(driver);

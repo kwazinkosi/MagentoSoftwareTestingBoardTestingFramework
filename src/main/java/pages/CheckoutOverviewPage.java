@@ -31,25 +31,23 @@ public class CheckoutOverviewPage extends BasePage {
     }
 
     public String getPaymentSummary() {
+    	
+        StringBuilder paymentSummary = new StringBuilder();
+        // First locate a stable element - like the Cart Subtotal label
+        WebElement cartSubtotalLabel = driver.findElement(By.xpath("//th[text()='Cart Subtotal']"));
+        WebElement cartSubtotalValue = driver.findElement(RelativeLocator.with(By.cssSelector("span")).toRightOf(cartSubtotalLabel));
         
-    	StringBuilder paymentSummary = new StringBuilder();
-
-        // Cart Subtotal is above Shipping
-        WebElement shippingLabel = driver.findElement(By.xpath("//*[text()='Shipping']"));
-        WebElement cartSubtotalLabel = driver.findElement(RelativeLocator.with(By.tagName("span")).above(shippingLabel));
-        WebElement cartSubtotalValue = driver.findElement(RelativeLocator.with(By.tagName("span")).toRightOf(cartSubtotalLabel));
+        // For shipping, find the element that contains the text "Shipping"
+        WebElement shippingValue = driver.findElement(RelativeLocator.with(By.cssSelector("span")).below(cartSubtotalValue));
         
-        // Order Total is below Shipping
-        WebElement orderTotalLabel = driver.findElement(RelativeLocator.with(By.tagName("strong")).below(shippingLabel));
-        WebElement orderTotalValue = driver.findElement(RelativeLocator.with(By.tagName("span")).toRightOf(orderTotalLabel));
-
-        // Try `near()` to get value near label "Shipping"
-        WebElement shippingValue = driver.findElement(RelativeLocator.with(By.tagName("span")).near(shippingLabel));
-
+        // For order total, look for the exact text match
+        WebElement orderTotalLabel =  driver.findElement(RelativeLocator.with(By.cssSelector("th span.label")).below(cartSubtotalLabel));
+        WebElement orderTotalValue = driver.findElement(RelativeLocator.with(By.cssSelector("span")).toRightOf(orderTotalLabel));
+        
         paymentSummary.append("Cart Subtotal: ").append(cartSubtotalValue.getText()).append("\n");
         paymentSummary.append("Shipping: ").append(shippingValue.getText()).append("\n");
         paymentSummary.append("Order Total: ").append(orderTotalValue.getText()).append("\n");
-
+        
         return paymentSummary.toString();
     }
 

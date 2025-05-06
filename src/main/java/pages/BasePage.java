@@ -63,6 +63,14 @@ public class BasePage {
         });
     }
 
+	protected void scrollToElement(WebElement element) {
+
+		executeWithLogging(element, "scroll to", () -> {
+			customWait.until(ExpectedConditions.visibilityOf(element), WaitTime.NORMAL);
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		});
+	}
+	 
     protected void sendKeys(WebElement element, String text) {
        
     	executeWithLogging(element, "send keys to", () -> {

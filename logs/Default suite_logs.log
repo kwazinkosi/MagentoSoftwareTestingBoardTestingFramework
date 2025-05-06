@@ -2007,3 +2007,633 @@ For more information on native dependency injection please refer to https://test
 2025-05-06 14:27:13 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (8aa176aad69f4071f285b1c9c8487b3f)] -> xpath: //button[@data-role='proceed-to-checkout']]
 2025-05-06 14:27:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (8aa176aad69f4071f285b1c9c8487b3f)] -> xpath: //button[@class='button action continue primary']]
 2025-05-06 14:27:31 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 14:29:42 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:29:42 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:29:42 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2025-05-06 14:29:42 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:29:42 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:29:44 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 14:29:46 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 14:29:50 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 14:29:50 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> id: email]
+2025-05-06 14:29:50 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> id: pass]
+2025-05-06 14:29:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> id: send2]
+2025-05-06 14:30:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:30:03 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:30:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:30:14 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> id: product-addtocart-button]
+2025-05-06 14:30:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:30:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 14:30:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 14:30:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> id: product-addtocart-button]
+2025-05-06 14:30:24 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 14:30:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (105f63b2ab5031855aa3bac696a04e11)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 14:40:41 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:40:41 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:40:41 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2025-05-06 14:40:41 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:40:41 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:40:44 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 14:40:46 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 14:40:48 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 14:40:48 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> id: email]
+2025-05-06 14:40:48 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> id: pass]
+2025-05-06 14:40:50 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> id: send2]
+2025-05-06 14:40:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:41:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:41:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:41:12 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> id: product-addtocart-button]
+2025-05-06 14:41:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:41:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 14:41:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 14:41:16 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> id: product-addtocart-button]
+2025-05-06 14:41:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 14:41:23 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 658). Other element would receive the click: <div id="checkout-shipping-method-load">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bae012750c59f30103975a2f1712bfd9, clickElement {id=f.15A7C59338A7AEA301E90F454D667B30.d.8420CA36620D5D0151D5942639A96B7D.e.797}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57122/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bae012750c59f30103975a2f1712bfd9)] -> xpath: //button[@class='button action continue primary']]
+Session ID: bae012750c59f30103975a2f1712bfd9
+2025-05-06 14:42:08 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:42:08 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:42:08 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 14:42:08 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:42:08 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:42:10 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 14:42:16 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 14:42:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 14:42:17 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> id: email]
+2025-05-06 14:42:17 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> id: pass]
+2025-05-06 14:42:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> id: send2]
+2025-05-06 14:42:27 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:42:31 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:42:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:42:42 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> id: product-addtocart-button]
+2025-05-06 14:42:44 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:42:44 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 14:42:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 14:42:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> id: product-addtocart-button]
+2025-05-06 14:42:51 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 14:42:52 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 451). Other element would receive the click: <div class="shipping-address-items">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ca495b615072d4e0d2eac2ccdcc66d5, clickElement {id=f.544252A2C86068C73A29260F02EA4B1E.d.3328B27245657BD0FBA561B39B3849C7.e.818}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57710}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57710/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3ca495b615072d4e0d2eac2ccdcc66d5)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 3ca495b615072d4e0d2eac2ccdcc66d5
+2025-05-06 14:45:19 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:45:19 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:45:19 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-05-06 14:45:19 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:45:19 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:45:21 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 14:45:24 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 14:45:25 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 14:45:25 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> id: email]
+2025-05-06 14:45:25 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> id: pass]
+2025-05-06 14:45:27 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> id: send2]
+2025-05-06 14:45:35 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:45:38 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:45:43 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:45:49 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> id: product-addtocart-button]
+2025-05-06 14:45:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:45:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 14:45:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 14:45:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> id: product-addtocart-button]
+2025-05-06 14:45:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 14:46:01 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 451). Other element would receive the click: <div id="checkout-loader" data-role="checkout-loader" class="loading-mask">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [592e2c2d61255ab8fa7ffcea701bc27b, clickElement {id=f.220DF76070FB30406E759AD11BF3DB55.d.7197A655268A443947ECE5B8D49D667E.e.754}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57908}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57908/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (592e2c2d61255ab8fa7ffcea701bc27b)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 592e2c2d61255ab8fa7ffcea701bc27b
+2025-05-06 14:47:22 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:47:22 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:47:22 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2025-05-06 14:47:22 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:47:22 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:47:24 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 14:47:55 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 14:47:57 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (0a23bd87253a6dc1505a37536e271856)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 14:49:31 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:49:31 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:49:31 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2025-05-06 14:49:31 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:49:31 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:49:34 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 14:49:36 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 14:49:37 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 14:49:37 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> id: email]
+2025-05-06 14:49:37 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> id: pass]
+2025-05-06 14:49:40 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> id: send2]
+2025-05-06 14:49:48 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:49:48 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:49:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:50:02 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> id: product-addtocart-button]
+2025-05-06 14:50:05 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:50:05 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 14:50:05 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 14:50:05 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> id: product-addtocart-button]
+2025-05-06 14:50:11 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 14:50:13 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 658). Other element would receive the click: <div id="checkout-shipping-method-load">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49cbe4a61134cf4a1fa2e35d242ac6cc, clickElement {id=f.1CD31A439A4D50540C8F8C3D025D9FCE.d.1B140BA47EDEB63BF92D1D9E4949AB98.e.803}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58761/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49cbe4a61134cf4a1fa2e35d242ac6cc)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 49cbe4a61134cf4a1fa2e35d242ac6cc
+2025-05-06 14:52:34 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:52:34 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:52:34 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-05-06 14:52:34 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:52:34 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:52:37 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 14:52:40 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 14:52:41 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 14:52:41 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> id: email]
+2025-05-06 14:52:41 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> id: pass]
+2025-05-06 14:52:43 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> id: send2]
+2025-05-06 14:52:51 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:52:53 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:52:58 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:53:04 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> id: product-addtocart-button]
+2025-05-06 14:53:07 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:53:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 14:53:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 14:53:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (83e75bed03d11b3c151c5a8f713874f8)] -> id: product-addtocart-button]
+2025-05-06 14:54:23 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:54:23 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:54:23 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2025-05-06 14:54:23 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:54:23 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:54:25 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 14:54:28 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 14:54:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 14:54:29 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> id: email]
+2025-05-06 14:54:29 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> id: pass]
+2025-05-06 14:54:32 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> id: send2]
+2025-05-06 14:54:40 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:54:42 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 14:54:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:54:53 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> id: product-addtocart-button]
+2025-05-06 14:54:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 14:54:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 14:54:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 14:54:57 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> id: product-addtocart-button]
+2025-05-06 14:55:03 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 14:55:03 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 14:55:04 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 622). Other element would receive the click: <div id="checkout-loader" data-role="checkout-loader" class="loading-mask">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7774c7ae9553be8f746f88599d246904, clickElement {id=f.4330A2F046700DFA1242CF31B5B64858.d.8A191E3CB415A33AF41D7F2CF281949A.e.754}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59301/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7774c7ae9553be8f746f88599d246904)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 7774c7ae9553be8f746f88599d246904
+2025-05-06 14:59:37 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:59:37 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:59:37 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 14:59:37 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:59:37 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:59:55 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 14:59:55 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 14:59:55 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 14:59:55 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 14:59:55 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 14:59:57 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:00:00 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:00:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:00:01 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> id: email]
+2025-05-06 15:00:01 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> id: pass]
+2025-05-06 15:00:04 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> id: send2]
+2025-05-06 15:00:12 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:00:14 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:00:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:00:25 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> id: product-addtocart-button]
+2025-05-06 15:00:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:00:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:00:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:00:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> id: product-addtocart-button]
+2025-05-06 15:00:33 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:00:37 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:01:01 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:01:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (faad104e4b0e339eddebb0683f8c7359)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:11:39 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:11:39 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:11:39 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2025-05-06 15:11:39 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:11:39 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:11:42 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:12:19 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:12:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e72a1a3fe37fd1663365e75274eeb879)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:12:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e72a1a3fe37fd1663365e75274eeb879)] -> id: email]
+2025-05-06 15:12:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e72a1a3fe37fd1663365e75274eeb879)] -> id: pass]
+2025-05-06 15:12:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e72a1a3fe37fd1663365e75274eeb879)] -> id: send2]
+2025-05-06 15:13:50 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:13:50 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:13:50 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 15:13:50 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:13:50 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:13:52 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:13:58 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:13:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:14:00 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> id: email]
+2025-05-06 15:14:00 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> id: pass]
+2025-05-06 15:14:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> id: send2]
+2025-05-06 15:14:11 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:14:13 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:14:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:14:26 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> id: product-addtocart-button]
+2025-05-06 15:14:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:14:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:14:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:14:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> id: product-addtocart-button]
+2025-05-06 15:14:32 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:14:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f6d8df47cb28bdc54d183fa1a826d6a5)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:15:12 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 15:15:12 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:15:12 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:15:14 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:15:45 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:15:46 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:15:47 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> id: email]
+2025-05-06 15:15:47 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> id: pass]
+2025-05-06 15:15:49 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> id: send2]
+2025-05-06 15:15:57 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:16:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:16:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:16:12 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> id: product-addtocart-button]
+2025-05-06 15:16:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:16:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:16:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:16:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> id: product-addtocart-button]
+2025-05-06 15:16:17 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:16:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (7e2fe167fd97a10da44a0a989ae70e51)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:17:00 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:17:00 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:17:00 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2025-05-06 15:17:00 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:17:00 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:17:02 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:17:07 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:17:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:17:09 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> id: email]
+2025-05-06 15:17:09 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> id: pass]
+2025-05-06 15:17:11 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> id: send2]
+2025-05-06 15:17:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:17:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:17:27 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:17:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> id: product-addtocart-button]
+2025-05-06 15:17:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:17:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:17:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:17:37 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> id: product-addtocart-button]
+2025-05-06 15:17:39 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:17:42 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:17:48 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:17:51 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cea15f0d109379133f49a92f624d6150)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:20:14 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:20:15 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:20:15 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2025-05-06 15:20:15 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:20:15 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:20:17 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:20:19 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:20:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (587e65c7c155a20520213a63c677ab5f)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:20:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (587e65c7c155a20520213a63c677ab5f)] -> id: email]
+2025-05-06 15:20:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (587e65c7c155a20520213a63c677ab5f)] -> id: pass]
+2025-05-06 15:20:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (587e65c7c155a20520213a63c677ab5f)] -> id: send2]
+2025-05-06 15:21:22 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:21:22 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:21:22 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 15:21:22 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:21:22 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:21:24 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:21:26 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:21:27 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:21:27 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> id: email]
+2025-05-06 15:21:27 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> id: pass]
+2025-05-06 15:21:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> id: send2]
+2025-05-06 15:21:38 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:21:40 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:21:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:21:51 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> id: product-addtocart-button]
+2025-05-06 15:21:54 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:21:54 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:21:54 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:21:54 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> id: product-addtocart-button]
+2025-05-06 15:21:57 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:21:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:22:09 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:22:09 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (917dc4d2dc7c19d47fedc8992ade782b)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:39:13 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 15:39:45 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:39:45 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:39:45 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 15:39:45 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:39:45 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:39:48 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:39:57 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:39:58 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:39:58 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> id: email]
+2025-05-06 15:39:59 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> id: pass]
+2025-05-06 15:40:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> id: send2]
+2025-05-06 15:40:11 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:40:13 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:40:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:40:25 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> id: product-addtocart-button]
+2025-05-06 15:40:28 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:40:28 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:40:28 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:40:28 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> id: product-addtocart-button]
+2025-05-06 15:40:31 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:40:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:40:39 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:40:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (559ce27f4596f23eb3c1dddca9fb2a1e)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:43:42 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 15:43:42 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:43:42 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:43:44 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:43:47 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:43:48 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:43:48 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> id: email]
+2025-05-06 15:43:48 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> id: pass]
+2025-05-06 15:43:50 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> id: send2]
+2025-05-06 15:43:58 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:44:02 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:44:07 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:44:13 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> id: product-addtocart-button]
+2025-05-06 15:44:16 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:44:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:44:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:44:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> id: product-addtocart-button]
+2025-05-06 15:44:19 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:44:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:44:26 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:44:26 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4055884fc68971e08c9c39f1c039e457)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:44:59 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 15:44:59 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:44:59 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:45:01 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:45:05 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:45:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:45:07 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> id: email]
+2025-05-06 15:45:07 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> id: pass]
+2025-05-06 15:45:09 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> id: send2]
+2025-05-06 15:45:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:45:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:45:24 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:45:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> id: product-addtocart-button]
+2025-05-06 15:45:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:45:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:45:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:45:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> id: product-addtocart-button]
+2025-05-06 15:45:37 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:45:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:46:16 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:46:16 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:46:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3b10610391e18eb4f124a728392b0827)] -> xpath: //span[normalize-space()='Place Order']]
+2025-05-06 15:46:36 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 15:47:48 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:47:48 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:47:48 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-05-06 15:47:48 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:47:48 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:47:50 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:47:55 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:47:58 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:47:58 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> id: email]
+2025-05-06 15:47:58 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> id: pass]
+2025-05-06 15:48:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> id: send2]
+2025-05-06 15:48:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:48:14 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> id: product-addtocart-button]
+2025-05-06 15:48:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:48:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:48:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:48:18 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> id: product-addtocart-button]
+2025-05-06 15:48:21 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:48:25 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:49:59 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:49:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (23f73aa1d7940467d63e57c065e8b404)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:53:12 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:53:12 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:53:12 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2025-05-06 15:53:12 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:53:12 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:53:15 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:53:18 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:53:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:53:19 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> id: email]
+2025-05-06 15:53:19 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> id: pass]
+2025-05-06 15:53:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> id: send2]
+2025-05-06 15:53:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:53:32 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:53:37 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:53:44 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> id: product-addtocart-button]
+2025-05-06 15:53:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:53:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:53:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:53:48 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> id: product-addtocart-button]
+2025-05-06 15:53:50 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:53:53 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:54:29 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:54:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (91d5fe2fd8db0b983628d472c2c1ee3c)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:56:27 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:56:27 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:56:27 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 25 ms.
+2025-05-06 15:56:27 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:56:27 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:56:30 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:57:03 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:57:05 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:57:06 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> id: email]
+2025-05-06 15:57:06 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> id: pass]
+2025-05-06 15:57:09 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> id: send2]
+2025-05-06 15:57:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:57:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:57:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:57:35 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> id: product-addtocart-button]
+2025-05-06 15:57:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:57:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:57:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:57:40 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> id: product-addtocart-button]
+2025-05-06 15:57:42 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:57:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:57:47 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:57:48 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 622). Other element would receive the click: <div id="checkout-shipping-method-load">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [678d7c948c8d46a3852f9be4088c30bb, clickElement {id=f.AEBF374D70713E7934DD1BB8BF82502D.d.9BD7A8B9C2D3E38DFF8F362618CC770B.e.825}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (678d7c948c8d46a3852f9be4088c30bb)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 678d7c948c8d46a3852f9be4088c30bb
+2025-05-06 15:58:08 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 15:58:08 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 15:58:08 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 15:58:08 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 15:58:08 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 15:58:12 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 15:58:18 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 15:58:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 15:58:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> id: email]
+2025-05-06 15:58:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> id: pass]
+2025-05-06 15:58:23 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> id: send2]
+2025-05-06 15:58:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:58:42 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 15:58:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:58:54 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> id: product-addtocart-button]
+2025-05-06 15:58:57 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 15:58:58 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 15:58:58 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 15:58:58 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> id: product-addtocart-button]
+2025-05-06 15:59:01 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:59:04 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 15:59:05 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 15:59:06 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 622). Other element would receive the click: <div id="checkout-shipping-method-load">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e7f644664a184a75dc227242fdf16e56, clickElement {id=f.1F013CC2DFEA993CB2103DD69950771D.d.298EDCB48108D9A57D041C28A817D37E.e.809}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53358/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e7f644664a184a75dc227242fdf16e56)] -> xpath: //button[@class='button action continue primary']]
+Session ID: e7f644664a184a75dc227242fdf16e56
+2025-05-06 16:00:29 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 16:00:29 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 16:00:29 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 29 ms.
+2025-05-06 16:00:29 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 16:00:29 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 16:00:32 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 16:01:05 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 16:01:07 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 16:01:07 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> id: email]
+2025-05-06 16:01:08 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> id: pass]
+2025-05-06 16:01:10 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> id: send2]
+2025-05-06 16:02:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 16:02:23 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 16:02:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 16:02:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> id: product-addtocart-button]
+2025-05-06 16:02:44 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 16:02:44 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 16:02:44 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 16:02:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> id: product-addtocart-button]
+2025-05-06 16:02:48 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 16:02:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 16:02:53 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 16:02:53 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cec74d0a4c7cf4e8b1989fcc633ac0d4)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 16:05:40 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 16:05:40 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 16:05:40 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 16:05:42 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 16:06:16 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 16:06:39 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 16:06:39 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 16:06:39 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2025-05-06 16:06:39 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 16:06:39 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 16:06:42 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 16:06:47 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 16:06:50 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 16:06:51 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> id: email]
+2025-05-06 16:06:51 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> id: pass]
+2025-05-06 16:06:54 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> id: send2]
+2025-05-06 16:07:12 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 16:07:16 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 16:07:23 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 16:07:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> id: product-addtocart-button]
+2025-05-06 16:07:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 16:07:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 16:07:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 16:07:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> id: product-addtocart-button]
+2025-05-06 16:07:37 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 16:07:41 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 16:07:42 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 16:07:44 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 622). Other element would receive the click: <div id="checkout-shipping-method-load">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6fbe2325ae2ed7bad23344b553565f0d, clickElement {id=f.DE83F4D12039189D4E487D1F9FACE134.d.84859DAD687DE79FCEC1DA1331DA38CF.e.786}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56018}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56018/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6fbe2325ae2ed7bad23344b553565f0d)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 6fbe2325ae2ed7bad23344b553565f0d
+2025-05-06 16:08:01 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 16:08:01 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 16:08:01 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2025-05-06 16:08:01 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 16:08:01 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 16:08:04 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 16:08:41 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 16:08:43 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 16:08:44 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> id: email]
+2025-05-06 16:08:44 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> id: pass]
+2025-05-06 16:08:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> id: send2]
+2025-05-06 16:09:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 16:09:04 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 16:09:10 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 16:09:16 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> id: product-addtocart-button]
+2025-05-06 16:09:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 16:09:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 16:09:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 16:09:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> id: product-addtocart-button]
+2025-05-06 16:09:24 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 16:09:28 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 16:09:29 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 16:09:30 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 409). Other element would receive the click: <div class="shipping-address-items">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [478f9e95726447a42d966f6a453f84d2, clickElement {id=f.343917F6929D06B70CC908319FDF28D5.d.2A2B6F4B33EE438526A7A1AEEB47DE91.e.834}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56422}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56422/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (478f9e95726447a42d966f6a453f84d2)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 478f9e95726447a42d966f6a453f84d2
+2025-05-06 16:09:56 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 16:09:56 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 16:09:56 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2025-05-06 16:09:56 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 16:09:56 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 16:10:07 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 16:10:07 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 16:10:07 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2025-05-06 16:10:07 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 16:10:07 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 16:10:10 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 16:10:17 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 16:10:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 16:10:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> id: email]
+2025-05-06 16:10:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> id: pass]
+2025-05-06 16:10:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> id: send2]
+2025-05-06 16:10:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 16:10:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-06 16:10:42 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 16:10:48 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> id: product-addtocart-button]
+2025-05-06 16:10:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //a[@class ='product-item-link']]
+2025-05-06 16:10:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-06 16:10:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-06 16:10:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> id: product-addtocart-button]
+2025-05-06 16:10:55 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 16:10:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-06 16:11:00 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //button[@class='button action continue primary']]
+2025-05-06 16:11:01 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 622). Other element would receive the click: <div id="checkout-shipping-method-load">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3071dfa3b2aa56799ab34227ee98a8f7, clickElement {id=f.91A1A36D3F72F65FB702667650284D26.d.1A1357216764731B1BBDE96C3FFEEAC9.e.809}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57221/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3071dfa3b2aa56799ab34227ee98a8f7)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 3071dfa3b2aa56799ab34227ee98a8f7
