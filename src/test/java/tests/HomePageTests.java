@@ -16,8 +16,7 @@ public class HomePageTests extends BaseTest {
 	
 	@Test(priority = 0, enabled = true, description = "Verify that the Home page is displayed correctly")
 	public void testHomePageDisplayed() {
-		
-		logStep("verifying that the Home page is displayed correctly.");
+			logStep("verifying that the Home page is displayed correctly.");
 		Assert.assertTrue(homePage.isPageDisplayed(), "Home page is not displayed.");
 		logStep("Home page is displayed correctly.");
 	}
@@ -35,6 +34,8 @@ public class HomePageTests extends BaseTest {
 	
 	@Test(priority = 2, enabled = true, description = "Verify that the order count is displayed correctly")
 	public void testOrderCountDisplayed() {
+		
+		
 
 		logStep("Verifying that the order count is displayed correctly.");
 		// returns "1 Item"

@@ -28,18 +28,21 @@ public class CheckoutPageTests extends BaseTest {
 		cartPage = new CartPage(driver);
 		checkoutPage = new CheckoutPage(driver);
 		if (!cartPage.isCartEmpty()) {
-			cartPage = productDetailsPage.getCart().navigateToCart();
-			checkoutPage = (CheckoutPage) cartPage.proceedToCheckout();
+			cartPage =homePage.getCart().navigateToCart().clearCart();
 		} else {
-			SearchPage searchPage = cartPage.getSearchBar().searchItem(PRODUCT_1);
+			SearchPage searchPage = homePage.getSearchBar().searchItem(PRODUCT_1);
 			List<WebElement> products = searchPage.getProducts();
 			if (!products.isEmpty()) {
 				// Assuming the first product is added to the cart
-				productDetailsPage = searchPage.clickOnProduct(products.get(0)).addItemToCart();
+				WebElement product = products.stream().filter(p -> p.getText().contains(PRODUCT_1)).findFirst()
+						.orElseThrow(() -> new RuntimeException("Product not found in search results"));
+				productDetailsPage = searchPage.clickOnProduct(product).addItemToCart();
 				productDetailsPage = new ProductDetailsPage(driver);
 				searchPage = cartPage.getSearchBar().searchItem(PRODUCT_2);
-				productDetailsPage = searchPage.clickOnProduct(products.get(0)).addItemToCart();
-				cartPage = productDetailsPage.getCart().navigateToCart(); // Navigate to cart after adding products
+				product = products.stream().filter(p -> p.getText().contains(PRODUCT_2)).findFirst()
+						.orElseThrow(() -> new RuntimeException("Product not found in search results"));
+				productDetailsPage = searchPage.clickOnProduct(product).addItemToCart();
+				cartPage = searchPage.getCart().navigateToCart(); // Navigate to cart after adding products
 				checkoutPage = (CheckoutPage) cartPage.proceedToCheckout();
 			} else {
 				throw new RuntimeException("Product not found in search results");

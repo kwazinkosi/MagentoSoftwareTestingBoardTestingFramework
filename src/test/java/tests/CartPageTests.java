@@ -4,9 +4,11 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import components.CartComponent;
 import pages.CartPage;
 import pages.CheckoutPage;
 import pages.ProductDetailsPage;
@@ -18,29 +20,50 @@ public class CartPageTests extends BaseTest {
 	private CartPage cartPage;
 	private CheckoutPage checkoutPage;
 	private ProductDetailsPage productDetailsPage;
-	private static final String PRODUCT_1 = "Didi Sport Watch"; //$92.00
-	private static final String PRODUCT_2 = "Argus All-Weather Tank"; //$22.00
+	private static final String PRODUCT_1 = "Didi Sport Watch"; // $92.00
+	private static final String PRODUCT_2 = "Argus All-Weather Tank"; // $22.00
 
 	@BeforeMethod
 	public void setUp() {
 
-		cartPage = new CartPage(driver);
+//		cartPage = new CartPage(driver);
 		checkoutPage = new CheckoutPage(driver);
-		if (!cartPage.isCartEmpty()) {
-			cartPage = productDetailsPage.getCart().navigateToCart();
-			checkoutPage = (CheckoutPage) cartPage.proceedToCheckout();
+		productDetailsPage = new ProductDetailsPage(driver);
+
+		CartComponent cart = homePage.getCart();
+		if (cart != null) {
+			cartPage = cart.navigateToCart();
+			if (cartPage != null) {
+				cartPage.clearCart();
+			}
+		} else {
+			cartPage = new CartPage(driver);
 		}
-		SearchPage searchPage = cartPage.getSearchBar().searchItem(PRODUCT_1);
+
+		SearchPage searchPage = homePage.getSearchBar().searchItem(PRODUCT_1);
 		List<WebElement> products = searchPage.getProducts();
 		if (!products.isEmpty()) {
 			// Assuming the first product is added to the cart
-			productDetailsPage = searchPage.clickOnProduct(products.get(0)).addItemToCart();
+			WebElement product = products.stream().filter(p -> p.getText().contains(PRODUCT_1)).findFirst()
+					.orElseThrow(() -> new RuntimeException("Product not found in search results"));
+			productDetailsPage = searchPage.clickOnProduct(product).addItemToCart();
 			productDetailsPage = new ProductDetailsPage(driver);
-			searchPage = cartPage.getSearchBar().searchItem(PRODUCT_2);
-			productDetailsPage = searchPage.clickOnProduct(products.get(0)).addItemToCart();
-			productDetailsPage.getCart().navigateToCart(); // Navigate to cart after adding products
+			searchPage = homePage.getSearchBar().searchItem(PRODUCT_2);
+			product = products.stream().filter(p -> p.getText().contains(PRODUCT_2)).findFirst()
+					.orElseThrow(() -> new RuntimeException("Product not found in search results"));
+			productDetailsPage = searchPage.clickOnProduct(product).addItemToCart();
+			cartPage = productDetailsPage.getCart().navigateToCart(); // Navigate to cart after adding products
 		} else {
 			throw new RuntimeException("Product not found in search results");
+		}
+
+	}
+
+	@AfterMethod
+	public void tearDown() {
+		// Clear the cart after each test
+		if (!cartPage.isCartEmpty()) {
+			cartPage.clearCart();
 		}
 	}
 
@@ -53,6 +76,7 @@ public class CartPageTests extends BaseTest {
 		logStep("Initial cart count: " + initialCount);
 
 		// Step 2: Remove product from cart
+
 		cartPage.removeProduct(PRODUCT_1);
 		logStep("Removed product: " + PRODUCT_1);
 
@@ -67,16 +91,13 @@ public class CartPageTests extends BaseTest {
 	@Test(priority = 1, description = "Verify the cart page contains the added product")
 	public void testCartContainsAddedProduct() {
 		logStep("Testing cart contains added product");
-
-		// Step 1: Get the product name from the product details page
-		String productName = productDetailsPage.getProductName();
-		logStep("Product name: " + productName);
+		String productName = PRODUCT_1; // Assuming this product was added
 
 		// Step 2: Verify the cart contains the added product
 		Assert.assertTrue(cartPage.containsProduct(productName), "Cart should contain the added product");
 		logStep("Product is present in the cart");
 
-		logStepWithScreenshot("Cart contains added product successfully");
+//		logStepWithScreenshot("Cart contains added product successfully");
 	}
 
 	@Test(priority = 2, description = "Verify the cart page displays the correct item count")
@@ -91,12 +112,27 @@ public class CartPageTests extends BaseTest {
 		Assert.assertEquals(cartPage.getCartItemCount(), expectedCount, "Cart item count should match expected count");
 		logStep("Cart item count is correct");
 
-		logStepWithScreenshot("Cart item count verified successfully");
+//		logStepWithScreenshot("Cart item count verified successfully");
+	}
+
+	@Test(priority = 3, description = "Verify the cart page allows clearing the cart")
+	public void testClearCart() {
+		logStep("Testing clear cart functionality");
+
+		// Step 1: Clear the cart
+		cartPage.clearCart();
+		logStep("Cleared the cart");
+
+		// Step 2: Verify the cart is empty
+		Assert.assertTrue(cartPage.isCartEmpty(), "Cart should be empty after clearing");
+		logStep("Cart is empty after clearing");
+
+//		logStepWithScreenshot("Cart cleared successfully");
 	}
 
 	@Test(priority = 3, description = "Verify the cart page allows proceeding to checkout")
 	public void testProceedToCheckout() {
-		
+
 		logStep("Testing proceed to checkout");
 
 		// Step 1: Click on the checkout button

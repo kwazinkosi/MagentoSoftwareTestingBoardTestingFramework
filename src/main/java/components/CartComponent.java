@@ -17,7 +17,7 @@ public class CartComponent {
 	private final WebDriver driver;
 	private final CustomWait customWait;
 
-	@FindBy(id = "//a[@class='action showcart']")
+	@FindBy(xpath = "//a[@class='action showcart']")
 	private WebElement cartIcon;
 
 	@FindBy(xpath = "//span[@class='counter-number']")
@@ -33,6 +33,9 @@ public class CartComponent {
 
 	public CartPage navigateToCart() {
 
+		if(getCurrentCartCount() == 0) {
+			return null;
+		}
 		customWait.until(ExpectedConditions.elementToBeClickable(cartIcon), WaitTime.NORMAL);
 
 		try {
@@ -50,12 +53,16 @@ public class CartComponent {
 
 	public int getCurrentCartCount() {
 
+		
 		try {
 			return Integer.parseInt(cartBadge.getText());
 		} catch (NoSuchElementException e) {
-
+			return 0;
+		} catch (NumberFormatException e) {
+			return 0;
+		} catch (Exception e) {
+			return 0;
 		}
-		return 0;
 	}
 
 	public boolean isBadgeDisplayed() {

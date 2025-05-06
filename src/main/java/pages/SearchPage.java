@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class SearchPage extends BasePage {
 
-	@FindBy(xpath ="//li[@class ='item product product-item']")
+	@FindBy(xpath ="//a[@class ='product-item-link']")
 	private List<WebElement> products;
 	
 	@FindBy(xpath = "//div[@class='message notice']//div")
