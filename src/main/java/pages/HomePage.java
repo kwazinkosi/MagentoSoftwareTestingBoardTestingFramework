@@ -62,8 +62,8 @@ public class HomePage extends BasePage
 	public void viewCustomerMenu(String menuItem) {
 		
 		try {
-			WebElement loggedInUserr = driver.findElement(By.xpath("//div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]"));
-			clickElement(loggedInUserr);
+			WebElement dropDown = driver.findElement(By.xpath("//div[@class='panel header']//button[@type='button']"));
+			dropDown.click();
 			List<WebElement> menuItems = driver.findElements(By.xpath("//div[@aria-hidden='false']//ul[@class='header links']//li//a"));
 			
 			menuItems.stream()
@@ -79,8 +79,9 @@ public class HomePage extends BasePage
 	
 	public String getOrderCount() {
 		
-		if (orderCount.isDisplayed()) {
-			return orderCount.getText();
+		WebElement orderCountt = driver.findElement(By.xpath("//span[@class ='counter qty']//span[@class='counter-number']"));
+		if (orderCountt.isDisplayed()) {
+			return orderCountt.getText();
 		} else {
 			return "0";
 		}
@@ -104,6 +105,17 @@ public class HomePage extends BasePage
 		return getText(loggedInUserr);
 	}
 	
+	public LandingPage signOut() {
+		try {
+			clickElement(loggedInUser);
+			viewCustomerMenu("Sign Out");
+			customWait.waitForPageLoad(WaitTime.NORMAL);
+			return new LandingPage(driver);
+		} catch (Exception e) {
+			System.out.println("Logout menu not found: " + e.getMessage());
+			return null;
+		}
+	}
 	@Override
 	public boolean isPageDisplayed() {
 		return isElementDisplayed(loggedInUser);

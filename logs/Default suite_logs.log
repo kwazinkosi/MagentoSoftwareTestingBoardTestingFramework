@@ -234,3 +234,295 @@ For more information on native dependency injection please refer to https://test
 2025-05-06 02:19:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (5f35a4cf572865ca6d9af02dacf4c540)] -> xpath: //div[@class='panel header']//span[@class='logged-in']]
 2025-05-06 02:20:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (5f35a4cf572865ca6d9af02dacf4c540)] -> xpath: //div[@class='panel header']//span[@class='logged-in']]
 2025-05-06 02:21:58 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (5f35a4cf572865ca6d9af02dacf4c540)] -> xpath: //div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]]
+2025-05-06 08:04:15 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 08:04:15 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 08:04:15 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-05-06 08:04:15 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:04:15 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:04:20 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:04:43 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:04:44 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (178f60c46bbb60ddbd17afe752678cfe)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:04:45 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (178f60c46bbb60ddbd17afe752678cfe)] -> id: email]
+2025-05-06 08:04:45 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (178f60c46bbb60ddbd17afe752678cfe)] -> id: pass]
+2025-05-06 08:04:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (178f60c46bbb60ddbd17afe752678cfe)] -> id: send2]
+2025-05-06 08:04:50 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:04:50 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:04:50 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:04:52 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:04:55 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:04:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f4a68db35428632502dec7ef07d8cddd)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:04:56 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (f4a68db35428632502dec7ef07d8cddd)] -> id: email]
+2025-05-06 08:04:56 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (f4a68db35428632502dec7ef07d8cddd)] -> id: pass]
+2025-05-06 08:04:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f4a68db35428632502dec7ef07d8cddd)] -> id: send2]
+2025-05-06 08:05:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (f4a68db35428632502dec7ef07d8cddd)] -> xpath: //div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]]
+2025-05-06 08:05:08 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:05:08 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:05:08 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:05:10 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:05:45 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:05:46 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (086024279fd94957fc689eb57ec522b2)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:05:47 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (086024279fd94957fc689eb57ec522b2)] -> id: email]
+2025-05-06 08:05:47 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (086024279fd94957fc689eb57ec522b2)] -> id: pass]
+2025-05-06 08:05:49 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (086024279fd94957fc689eb57ec522b2)] -> id: send2]
+2025-05-06 08:05:54 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:05:54 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:05:54 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:05:56 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:06:01 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:06:02 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (c815ef8b32bc9a883df88caa668e2a0f)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:06:02 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (c815ef8b32bc9a883df88caa668e2a0f)] -> id: email]
+2025-05-06 08:06:02 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (c815ef8b32bc9a883df88caa668e2a0f)] -> id: pass]
+2025-05-06 08:06:05 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (c815ef8b32bc9a883df88caa668e2a0f)] -> id: send2]
+2025-05-06 08:06:07 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (c815ef8b32bc9a883df88caa668e2a0f)] -> xpath: //div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]]
+2025-05-06 08:06:10 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:07:27 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 08:07:27 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 08:07:27 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 08:07:27 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:07:27 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:07:29 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:07:31 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:07:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (423524b9b86f7e83d2714775ee6347b2)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:07:33 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (423524b9b86f7e83d2714775ee6347b2)] -> id: email]
+2025-05-06 08:07:33 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (423524b9b86f7e83d2714775ee6347b2)] -> id: pass]
+2025-05-06 08:07:35 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (423524b9b86f7e83d2714775ee6347b2)] -> id: send2]
+2025-05-06 08:07:44 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:07:44 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:07:44 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:07:45 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:08:15 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:08:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (00231e0914165829a36f62475265941f)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:08:17 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (00231e0914165829a36f62475265941f)] -> id: email]
+2025-05-06 08:08:17 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (00231e0914165829a36f62475265941f)] -> id: pass]
+2025-05-06 08:08:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (00231e0914165829a36f62475265941f)] -> id: send2]
+2025-05-06 08:08:27 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (00231e0914165829a36f62475265941f)] -> xpath: //div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]]
+2025-05-06 08:08:35 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:08:35 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:08:35 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:08:37 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:08:41 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:08:42 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bfc50e0b42801ee38b7d910ef7d80db6)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:08:43 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (bfc50e0b42801ee38b7d910ef7d80db6)] -> id: email]
+2025-05-06 08:08:43 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (bfc50e0b42801ee38b7d910ef7d80db6)] -> id: pass]
+2025-05-06 08:08:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bfc50e0b42801ee38b7d910ef7d80db6)] -> id: send2]
+2025-05-06 08:10:37 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 08:10:37 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 08:10:37 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2025-05-06 08:10:37 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:10:37 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:10:39 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:10:41 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:10:43 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (22fd57730c872d39caf57613c71683b5)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:10:43 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (22fd57730c872d39caf57613c71683b5)] -> id: email]
+2025-05-06 08:10:43 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (22fd57730c872d39caf57613c71683b5)] -> id: pass]
+2025-05-06 08:10:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (22fd57730c872d39caf57613c71683b5)] -> id: send2]
+2025-05-06 08:10:53 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:10:53 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:10:53 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:10:55 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:11:01 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:11:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (9c5d4dda647680995033f5aac82c1515)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:11:06 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (9c5d4dda647680995033f5aac82c1515)] -> id: email]
+2025-05-06 08:11:07 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (9c5d4dda647680995033f5aac82c1515)] -> id: pass]
+2025-05-06 08:11:09 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (9c5d4dda647680995033f5aac82c1515)] -> id: send2]
+2025-05-06 08:11:21 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:11:21 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:11:21 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:11:22 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:11:27 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:11:28 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (5fd4253528067b5024020639588c2be8)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:11:29 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (5fd4253528067b5024020639588c2be8)] -> id: email]
+2025-05-06 08:11:29 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (5fd4253528067b5024020639588c2be8)] -> id: pass]
+2025-05-06 08:11:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (5fd4253528067b5024020639588c2be8)] -> id: send2]
+2025-05-06 08:16:37 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 08:16:37 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 08:16:37 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 08:16:37 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:16:37 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:16:40 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:16:42 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:16:43 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (93fef9d9f42c27d276244b99f920356d)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:16:44 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (93fef9d9f42c27d276244b99f920356d)] -> id: email]
+2025-05-06 08:16:44 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (93fef9d9f42c27d276244b99f920356d)] -> id: pass]
+2025-05-06 08:16:46 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (93fef9d9f42c27d276244b99f920356d)] -> id: send2]
+2025-05-06 08:16:52 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:16:52 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:16:52 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:16:54 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:16:56 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:16:57 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (aae9fa832b5fea040eed771adcd84253)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:16:58 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (aae9fa832b5fea040eed771adcd84253)] -> id: email]
+2025-05-06 08:16:58 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (aae9fa832b5fea040eed771adcd84253)] -> id: pass]
+2025-05-06 08:17:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (aae9fa832b5fea040eed771adcd84253)] -> id: send2]
+2025-05-06 08:17:07 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (aae9fa832b5fea040eed771adcd84253)] -> xpath: //div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]]
+2025-05-06 08:17:14 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:17:14 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:17:14 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:17:15 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:17:20 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:17:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e223df9448a768d924ae6b88bac02b9c)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:17:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e223df9448a768d924ae6b88bac02b9c)] -> id: email]
+2025-05-06 08:17:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e223df9448a768d924ae6b88bac02b9c)] -> id: pass]
+2025-05-06 08:17:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e223df9448a768d924ae6b88bac02b9c)] -> id: send2]
+2025-05-06 08:17:44 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 08:17:44 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 08:17:44 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-05-06 08:17:44 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:17:44 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:17:46 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:17:48 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:17:49 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (2e3efc0f87a416def06d9267f0aa1499)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:17:49 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (2e3efc0f87a416def06d9267f0aa1499)] -> id: email]
+2025-05-06 08:17:50 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (2e3efc0f87a416def06d9267f0aa1499)] -> id: pass]
+2025-05-06 08:17:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (2e3efc0f87a416def06d9267f0aa1499)] -> id: send2]
+2025-05-06 08:18:05 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:18:05 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:18:05 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:18:07 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:18:37 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:18:38 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (ac30cd8d94d203a9eb312fc47b459aaa)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:18:38 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (ac30cd8d94d203a9eb312fc47b459aaa)] -> id: email]
+2025-05-06 08:18:38 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (ac30cd8d94d203a9eb312fc47b459aaa)] -> id: pass]
+2025-05-06 08:18:41 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (ac30cd8d94d203a9eb312fc47b459aaa)] -> id: send2]
+2025-05-06 08:20:07 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 08:20:07 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 08:20:07 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2025-05-06 08:20:07 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:20:07 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:20:09 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:20:11 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:20:14 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e2f9f4b622d101079667094315a8d932)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:20:14 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e2f9f4b622d101079667094315a8d932)] -> id: email]
+2025-05-06 08:20:14 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e2f9f4b622d101079667094315a8d932)] -> id: pass]
+2025-05-06 08:20:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e2f9f4b622d101079667094315a8d932)] -> id: send2]
+2025-05-06 08:20:25 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:20:25 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:20:25 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:20:27 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:20:29 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:20:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d73e31c49ac2da4529502999c1cc5263)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:20:30 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d73e31c49ac2da4529502999c1cc5263)] -> id: email]
+2025-05-06 08:20:30 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d73e31c49ac2da4529502999c1cc5263)] -> id: pass]
+2025-05-06 08:20:32 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d73e31c49ac2da4529502999c1cc5263)] -> id: send2]
+2025-05-06 08:20:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d73e31c49ac2da4529502999c1cc5263)] -> xpath: //div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]]
+2025-05-06 08:21:15 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 08:21:15 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 08:21:15 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2025-05-06 08:21:15 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:21:15 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:21:17 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:21:19 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:21:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (ed48bc2638d11cb7bc4e35fe6abf5894)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:21:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (ed48bc2638d11cb7bc4e35fe6abf5894)] -> id: email]
+2025-05-06 08:21:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (ed48bc2638d11cb7bc4e35fe6abf5894)] -> id: pass]
+2025-05-06 08:21:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (ed48bc2638d11cb7bc4e35fe6abf5894)] -> id: send2]
+2025-05-06 08:21:28 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 08:21:28 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 08:21:28 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 08:21:30 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 08:21:32 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 08:21:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (782ffeab46e44826db3c0e47ffba5c95)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 08:21:33 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (782ffeab46e44826db3c0e47ffba5c95)] -> id: email]
+2025-05-06 08:21:33 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (782ffeab46e44826db3c0e47ffba5c95)] -> id: pass]
+2025-05-06 08:21:35 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (782ffeab46e44826db3c0e47ffba5c95)] -> id: send2]
+2025-05-06 10:15:21 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 10:15:21 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 10:15:21 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 20 ms.
+2025-05-06 10:15:21 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:15:21 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:15:28 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:16:24 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:16:26 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (2c741fb373971d3ac52ad0ffe3cc23f4)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:16:27 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (2c741fb373971d3ac52ad0ffe3cc23f4)] -> id: email]
+2025-05-06 10:16:28 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (2c741fb373971d3ac52ad0ffe3cc23f4)] -> id: pass]
+2025-05-06 10:16:31 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (2c741fb373971d3ac52ad0ffe3cc23f4)] -> id: send2]
+2025-05-06 10:16:40 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 10:16:40 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:16:40 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:16:42 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:17:17 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:17:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (1d366db7be5c86daa2a5ea6429b678e7)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:17:19 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (1d366db7be5c86daa2a5ea6429b678e7)] -> id: email]
+2025-05-06 10:17:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (1d366db7be5c86daa2a5ea6429b678e7)] -> id: pass]
+2025-05-06 10:17:23 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (1d366db7be5c86daa2a5ea6429b678e7)] -> id: send2]
+2025-05-06 10:19:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (1d366db7be5c86daa2a5ea6429b678e7)] -> xpath: //div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]]
+2025-05-06 10:20:17 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 10:20:17 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 10:20:18 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 14 ms.
+2025-05-06 10:20:18 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:20:18 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:20:22 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:20:55 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:20:57 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (9b94084c88c7cf56b13393f51f32d216)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:20:58 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (9b94084c88c7cf56b13393f51f32d216)] -> id: email]
+2025-05-06 10:20:58 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (9b94084c88c7cf56b13393f51f32d216)] -> id: pass]
+2025-05-06 10:21:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (9b94084c88c7cf56b13393f51f32d216)] -> id: send2]
+2025-05-06 10:21:42 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 10:21:42 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:21:42 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:21:43 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:21:45 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:21:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d844b99630aa3d99e696b16f9bfa5983)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:21:48 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d844b99630aa3d99e696b16f9bfa5983)] -> id: email]
+2025-05-06 10:21:48 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d844b99630aa3d99e696b16f9bfa5983)] -> id: pass]
+2025-05-06 10:21:50 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d844b99630aa3d99e696b16f9bfa5983)] -> id: send2]
+2025-05-06 10:25:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d844b99630aa3d99e696b16f9bfa5983)] -> xpath: //div[@id='block-collapsible-nav']//li]
+2025-05-06 10:26:07 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 10:26:07 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:26:07 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:26:09 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:26:12 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:26:13 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (8de67b260e877cb3d28c8932e17984bd)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:26:13 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (8de67b260e877cb3d28c8932e17984bd)] -> id: email]
+2025-05-06 10:26:14 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (8de67b260e877cb3d28c8932e17984bd)] -> id: pass]
+2025-05-06 10:26:14 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (8de67b260e877cb3d28c8932e17984bd)] -> id: send2]
+2025-05-06 10:27:21 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 10:27:21 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:27:21 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:27:23 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:27:26 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:27:28 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d6bb0834694bd43f90ea1eeb3c088660)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:27:28 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d6bb0834694bd43f90ea1eeb3c088660)] -> id: email]
+2025-05-06 10:27:28 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d6bb0834694bd43f90ea1eeb3c088660)] -> id: pass]
+2025-05-06 10:27:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d6bb0834694bd43f90ea1eeb3c088660)] -> id: send2]
+2025-05-06 10:34:09 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Default suite_logs.log
+2025-05-06 10:34:09 INFO  LoggingManager:51 - Loading the properties file
+2025-05-06 10:34:09 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2025-05-06 10:34:09 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:34:09 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:34:12 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:34:14 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:34:15 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (c5c362a8d8b4a8892c924a2a461423a2)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:34:16 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (c5c362a8d8b4a8892c924a2a461423a2)] -> id: email]
+2025-05-06 10:34:16 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (c5c362a8d8b4a8892c924a2a461423a2)] -> id: pass]
+2025-05-06 10:34:18 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (c5c362a8d8b4a8892c924a2a461423a2)] -> id: send2]
+2025-05-06 10:34:41 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 10:34:41 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:34:41 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:34:42 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:34:45 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:34:46 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cd47bc8f25273e9ff07f44ba360bb217)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:34:46 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (cd47bc8f25273e9ff07f44ba360bb217)] -> id: email]
+2025-05-06 10:34:47 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (cd47bc8f25273e9ff07f44ba360bb217)] -> id: pass]
+2025-05-06 10:34:49 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cd47bc8f25273e9ff07f44ba360bb217)] -> id: send2]
+2025-05-06 10:35:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (cd47bc8f25273e9ff07f44ba360bb217)] -> xpath: //div[@id='block-collapsible-nav']//li]
+2025-05-06 10:35:04 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 10:35:04 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:35:04 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:35:06 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:35:37 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:35:38 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (0691150aaa7ab4c051985005baac1209)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:35:39 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (0691150aaa7ab4c051985005baac1209)] -> id: email]
+2025-05-06 10:35:39 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (0691150aaa7ab4c051985005baac1209)] -> id: pass]
+2025-05-06 10:35:42 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (0691150aaa7ab4c051985005baac1209)] -> id: send2]
+2025-05-06 10:35:49 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-06 10:35:49 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-06 10:35:49 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-06 10:35:51 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-06 10:35:55 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-06 10:35:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (11127c3d6aa33607d3ac113030e38f25)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-06 10:35:56 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (11127c3d6aa33607d3ac113030e38f25)] -> id: email]
+2025-05-06 10:35:56 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (11127c3d6aa33607d3ac113030e38f25)] -> id: pass]
+2025-05-06 10:35:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (11127c3d6aa33607d3ac113030e38f25)] -> id: send2]
+2025-05-06 10:36:04 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (11127c3d6aa33607d3ac113030e38f25)] -> xpath: //div[@class='panel header']//span[@class='logged-in']]
+2025-05-06 10:36:15 INFO  LoggingManager:51 - WebDriver quit successfully

@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import pages.LandingPage;
 import tests.base.BaseTest;
 
 public class HomePageTests extends BaseTest {
@@ -47,8 +48,8 @@ public class HomePageTests extends BaseTest {
 	public void testLogout() {
         
         logStep("Logging out of the application.");
-        homePage.viewCustomerMenu("Sign Out");
-        Assert.assertTrue(homePage.isPageDisplayed(), "Home page is not displayed after logout.");
+        LandingPage landingPage = homePage.signOut();
+        Assert.assertTrue(landingPage.isLandingPageDisplayed(), "Home page is not displayed after logout.");
         logStep("Logged out of the application successfully.");
     }
 	
