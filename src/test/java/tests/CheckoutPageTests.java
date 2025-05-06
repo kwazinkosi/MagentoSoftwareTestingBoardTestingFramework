@@ -4,9 +4,11 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import components.CartComponent;
 import pages.BasePage;
 import pages.CartPage;
 import pages.CheckoutPage;
@@ -19,34 +21,49 @@ public class CheckoutPageTests extends BaseTest {
 	private CartPage cartPage;
 	private CheckoutPage checkoutPage;
 	private ProductDetailsPage productDetailsPage;
-	private static final String PRODUCT_1 = "Didi Sport Watch"; //$92.00
-	private static final String PRODUCT_2 = "Argus All-Weather Tank"; //$22.00
+	private static final String PRODUCT_1 = "Didi Sport Watch"; // $92.00
+	private static final String PRODUCT_2 = "Argus All-Weather Tank"; // $22.00
 
 	@BeforeMethod
 	public void setUp() {
 
-		cartPage = new CartPage(driver);
 		checkoutPage = new CheckoutPage(driver);
-		if (!cartPage.isCartEmpty()) {
-			cartPage =homePage.getCart().navigateToCart().clearCart();
-		} else {
-			SearchPage searchPage = homePage.getSearchBar().searchItem(PRODUCT_1);
-			List<WebElement> products = searchPage.getProducts();
-			if (!products.isEmpty()) {
-				// Assuming the first product is added to the cart
-				WebElement product = products.stream().filter(p -> p.getText().contains(PRODUCT_1)).findFirst()
-						.orElseThrow(() -> new RuntimeException("Product not found in search results"));
-				productDetailsPage = searchPage.clickOnProduct(product).addItemToCart();
-				productDetailsPage = new ProductDetailsPage(driver);
-				searchPage = cartPage.getSearchBar().searchItem(PRODUCT_2);
-				product = products.stream().filter(p -> p.getText().contains(PRODUCT_2)).findFirst()
-						.orElseThrow(() -> new RuntimeException("Product not found in search results"));
-				productDetailsPage = searchPage.clickOnProduct(product).addItemToCart();
-				cartPage = searchPage.getCart().navigateToCart(); // Navigate to cart after adding products
-				checkoutPage = (CheckoutPage) cartPage.proceedToCheckout();
-			} else {
-				throw new RuntimeException("Product not found in search results");
+		productDetailsPage = new ProductDetailsPage(driver);
+
+		CartComponent cart = homePage.getCart();
+		if (cart != null) {
+			cartPage = cart.navigateToCart();
+			if (cartPage != null) {
+				cartPage.clearCart();
 			}
+		} else {
+			cartPage = new CartPage(driver);
+		}
+
+		SearchPage searchPage = homePage.getSearchBar().searchItem(PRODUCT_1);
+		List<WebElement> products = searchPage.getProducts();
+		if (!products.isEmpty()) {
+			// Assuming the first product is added to the cart
+			WebElement product = products.stream().filter(p -> p.getText().contains(PRODUCT_1)).findFirst()
+					.orElseThrow(() -> new RuntimeException("Product not found in search results"));
+			productDetailsPage = searchPage.clickOnProduct(product).addItemToCart();
+			productDetailsPage = new ProductDetailsPage(driver);
+			searchPage = homePage.getSearchBar().searchItem(PRODUCT_2);
+			product = products.stream().filter(p -> p.getText().contains(PRODUCT_2)).findFirst()
+					.orElseThrow(() -> new RuntimeException("Product not found in search results"));
+			productDetailsPage = searchPage.clickOnProduct(product).addItemToCart();
+			cartPage = productDetailsPage.getCart().navigateToCart(); // Navigate to cart after adding products
+			checkoutPage = (CheckoutPage) cartPage.proceedToCheckout();
+		} else {
+			throw new RuntimeException("Product not found in search results");
+		}
+	}
+
+	@AfterMethod
+	public void tearDown() {
+		// Clear the cart after each test
+		if (!cartPage.isCartEmpty()) {
+			cartPage.clearCart();
 		}
 	}
 
