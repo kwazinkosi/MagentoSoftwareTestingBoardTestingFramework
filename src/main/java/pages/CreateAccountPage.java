@@ -1,6 +1,8 @@
 package pages;
 
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
@@ -99,12 +101,12 @@ public class CreateAccountPage extends BasePage {
 		return this;
 	}
 
-	public List<String> getErrorMessages() {
+	public Set<String> getErrorMessages() {
 
 		try {
+			
 			List<WebElement> errorMessages = driver.findElements(By.xpath("//div[@class = 'mage-error']"));
-
-			return errorMessages.stream().map(WebElement::getText).toList();
+			return errorMessages.stream().map(WebElement::getText).collect(Collectors.toSet());
 		} catch (TimeoutException e) {
 			return null;
 		}

@@ -1,6 +1,6 @@
 package tests;
 
-import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -16,6 +16,7 @@ import pages.LandingPage;
 import pages.SignInPage;
 import tests.base.BaseTest;
 import utils.LoggingManager;
+import utils.dataproviders.MagentoDataProviders;
 import utils.dataproviders.models.SignUpTestData;
 
 public class CreateAccountPageTests extends BaseTest {
@@ -34,7 +35,7 @@ public class CreateAccountPageTests extends BaseTest {
 //		    browserName = ConfigReader.getProperty("browser"); 
 		}
 		System.out.println("Running tests on browser: " + browserName);
-		LoggingManager.info("Running tests on browser: " +browserName);
+		LoggingManager.info("Running tests on browser: " + browserName);
 		logStep("Running tests on browser:: " + browserName);
 		driver = driverFactory.initDriver(browserName, browserMode);
 		LandingPage landingPage = new LandingPage(driver);
@@ -46,13 +47,15 @@ public class CreateAccountPageTests extends BaseTest {
 
 	@Test(priority = 0, enabled = true, description = "Verify that the Create Account page is displayed correctly")
 	public void testCreateAccountPageDisplayed() {
+		
 		logStep("verifying that the Create Account page is displayed correctly.");
 		LoggingManager.info("verifying that the Create Account page is displayed correctly.");
 		Assert.assertTrue(createAccountPage.isPageDisplayed(), "Create Account page is not displayed.");
 		logStep("Create Account page is displayed correctly.");
 	}
 	
-	@Test(priority = 1, enabled = true, description = "Verify that the user cannot create an account with invalid details")
+	@Test(priority = 1, enabled = true, description = "Verify that the user cannot create an account with invalid details",
+			dataProvider = "signUpData",  dataProviderClass = MagentoDataProviders.class)
 	public void testCreateAccountWithInvalidDetails(SignUpTestData data) {
 		
 		logStep("=========================Starting test case: " + data.getTestCaseId()+"=========================");
@@ -74,7 +77,7 @@ public class CreateAccountPageTests extends BaseTest {
 			logStep("User is still on the Create Account page.");
 			LoggingManager.info("User is still on the Create Account page.");
 			
-			List<String> errorMessages = createAccountPage.getErrorMessages();
+		    Set<String> errorMessages = createAccountPage.getErrorMessages();
 			String expectedMessage = data.getExpectedResult();
 			
 			boolean isErrorMessageDisplayed = errorMessages.stream()
@@ -84,17 +87,19 @@ public class CreateAccountPageTests extends BaseTest {
 			
 		}
 		else if (currentPage instanceof HomePage) {
+			
 			logStep("User is redirected to the Home page.");
 			LoggingManager.info("User is redirected to the Home page.");
 			Assert.assertTrue(currentPage.isPageDisplayed(), "Home page is not displayed.");
 		} else {
+			
 			logStep("Unexpected page after account creation attempt.");
 			LoggingManager.info("Unexpected page after account creation attempt.");
 			Assert.fail("Unexpected page after account creation attempt.");
 		}
 		
 		logStep("Test case " + data.getTestCaseId() + " PASSED!");
-	    LoggingManager.info(data.getTestCaseId() + " in LoginPageTest::testLoginFunctionality PASSED!");
+	    LoggingManager.info("============= "+data.getTestCaseId() + " in LoginPageTest::testLoginFunctionality PASSED! ============");
 	}
 	
 	

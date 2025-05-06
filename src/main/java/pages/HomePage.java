@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import constants.WaitTime;
+
 
 public class HomePage extends BasePage
 {
@@ -22,6 +24,7 @@ public class HomePage extends BasePage
 	
 	@FindBy(xpath = "//div[@class='panel header']//span[@class='logged-in']")
 	private WebElement loggedInUser; // logged in user name
+	
 	
 	public HomePage(WebDriver driver) {
         super(driver);
@@ -40,6 +43,9 @@ public class HomePage extends BasePage
 	}
 	
 	public HomePage clickMenuItem(String menuItem) {
+		
+		// First go to account
+		viewCustomerMenu("My Account");
 		// Validate the menu item
 		if (menuItem == null || menuItem.isEmpty()) {
 			throw new IllegalArgumentException("Menu item cannot be null or empty");
@@ -53,6 +59,24 @@ public class HomePage extends BasePage
 		return this;
 	}
 	
+	public void viewCustomerMenu(String menuItem) {
+		
+		try {
+			WebElement loggedInUserr = driver.findElement(By.xpath("//div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]"));
+			clickElement(loggedInUserr);
+			List<WebElement> menuItems = driver.findElements(By.xpath("//div[@aria-hidden='false']//ul[@class='header links']//li//a"));
+			
+			menuItems.stream()
+			.filter(item -> item.getText().equalsIgnoreCase(menuItem))
+			.findFirst()
+			.ifPresent(WebElement::click);
+			
+		} catch (Exception e) {
+			System.out.println("Account menu not found: " + e.getMessage());
+		}
+		
+	}
+	
 	public String getOrderCount() {
 		
 		if (orderCount.isDisplayed()) {
@@ -62,6 +86,19 @@ public class HomePage extends BasePage
 		}
 	}
 	
+	public LandingPage logout() {
+		
+		try {
+			
+			clickElement(loggedInUser);
+			viewCustomerMenu("Sign Out");
+			customWait.waitForPageLoad(WaitTime.NORMAL);
+			return new LandingPage(driver);
+		} catch (Exception e) {
+			System.out.println("Logout menu not found: " + e.getMessage());
+			return null;
+		}
+	}
 	public String getLoggedInUser() {
 		WebElement loggedInUserr = driver.findElement(By.xpath("//div[@class='panel header']//span[@class='logged-in'][contains(normalize-space(), 'Welcome')]"));
 		return getText(loggedInUserr);

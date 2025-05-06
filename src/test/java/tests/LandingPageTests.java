@@ -50,7 +50,7 @@ public class LandingPageTests extends BaseTest {
 		landingPage.navigateTo(baseUrl);
 	}
 
-	@Test(priority = 0, enabled = false, description = "Verify that all navbar component links function correctly", dataProvider = "navbarData", dataProviderClass = MagentoDataProviders.class)
+	@Test(priority = 0, enabled = true, description = "Verify that all navbar component links function correctly", dataProvider = "navbarData", dataProviderClass = MagentoDataProviders.class)
 	public void testNavbarComponents(NavbarTestData data) {
 		
 		logStep("=========================Starting test case: " + data.getTestCaseId()+"=========================");

@@ -43,4 +43,13 @@ public class HomePageTests extends BaseTest {
 		logStep("Order count is displayed correctly: " + orderCount);
 	}
 	
-}
+	@Test(priority = 3, enabled = true, description = "Verify that the user can log out successfully")
+	public void testLogout() {
+        
+        logStep("Logging out of the application.");
+        homePage.viewCustomerMenu("Sign Out");
+        Assert.assertTrue(homePage.isPageDisplayed(), "Home page is not displayed after logout.");
+        logStep("Logged out of the application successfully.");
+    }
+	
+}		
