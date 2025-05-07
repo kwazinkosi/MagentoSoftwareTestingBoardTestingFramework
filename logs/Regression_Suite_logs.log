@@ -1,0 +1,604 @@
+2025-05-07 15:29:17 INFO  LoggingManager:42 - Logging configuration initialized. Log file path: C:\Users\kwazinkosizwane\eclipse-workspace\MagentoTestingFramework\logs\Regression_Suite_logs.log
+2025-05-07 15:29:17 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:29:17 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:29:17 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:29:17 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:29:17 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:29:17 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:29:17 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:29:17 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:29:18 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:29:18 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:29:25 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:29:25 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:29:25 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:29:26 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:29:26 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:30:23 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:30:25 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (b85efa1417631a942a0f973d057b7ceb)] -> xpath: //div[@class='panel header']//a[normalize-space()='Create an Account']]
+2025-05-07 15:30:25 INFO  LoggingManager:51 - verifying that the Create Account page is displayed correctly.
+2025-05-07 15:30:26 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:30:26 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:30:26 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:30:26 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:30:26 INFO  LoggingManager:51 - =========================Starting test case: TC01=========================
+2025-05-07 15:30:27 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:30:30 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:30:31 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:30:31 INFO  LoggingManager:51 - Hovering over the sub-menu: Tops
+2025-05-07 15:30:32 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Jackets
+2025-05-07 15:30:32 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bd10b175d2bd676ea8cf7907961f7786)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:30:34 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:30:34 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:30:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:30:36 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:30:36 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:30:36 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:30:36 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> id: email]
+2025-05-07 15:30:37 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> id: pass]
+2025-05-07 15:30:37 INFO  LoggingManager:51 - Test case TC01: completed successfully.
+2025-05-07 15:30:37 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (ed861bc6f22bdfc589a0c290dd0a7209)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:30:37 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (ed861bc6f22bdfc589a0c290dd0a7209)] -> id: email]
+2025-05-07 15:30:38 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (ed861bc6f22bdfc589a0c290dd0a7209)] -> id: pass]
+2025-05-07 15:30:38 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:30:40 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:30:40 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:30:40 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:30:41 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> id: send2]
+2025-05-07 15:30:41 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (ed861bc6f22bdfc589a0c290dd0a7209)] -> id: send2]
+2025-05-07 15:30:42 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:30:52 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:30:52 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:30:52 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:30:56 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:31:01 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:02 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:04 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (acb2b04eb540fee56747f13fa1803f5f)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:31:05 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d4ef02c5c93320ca68a3473792682f05)] -> xpath: //div[@class='panel header']//a[normalize-space()='Create an Account']]
+2025-05-07 15:31:05 INFO  LoggingManager:51 - =========================Starting test case: TC0=========================
+2025-05-07 15:31:05 INFO  LoggingManager:51 - Entering invalid details for account creation.
+2025-05-07 15:31:05 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (acb2b04eb540fee56747f13fa1803f5f)] -> id: email]
+2025-05-07 15:31:05 INFO  LoggingManager:51 - First name: , Last name: , Email: , Password: 
+2025-05-07 15:31:05 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (acb2b04eb540fee56747f13fa1803f5f)] -> id: pass]
+2025-05-07 15:31:05 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d4ef02c5c93320ca68a3473792682f05)] -> id: firstname]
+2025-05-07 15:31:05 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d4ef02c5c93320ca68a3473792682f05)] -> id: lastname]
+2025-05-07 15:31:05 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d4ef02c5c93320ca68a3473792682f05)] -> id: email_address]
+2025-05-07 15:31:05 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d4ef02c5c93320ca68a3473792682f05)] -> id: password]
+2025-05-07 15:31:06 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (d4ef02c5c93320ca68a3473792682f05)] -> id: password-confirmation]
+2025-05-07 15:31:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (d4ef02c5c93320ca68a3473792682f05)] -> xpath: //button[@title='Create an Account']]
+2025-05-07 15:31:06 INFO  LoggingManager:51 - User is still on the Create Account page.
+2025-05-07 15:31:06 INFO  LoggingManager:51 - ============= TC0 in LoginPageTest::testLoginFunctionality PASSED! ============
+2025-05-07 15:31:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:31:07 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:31:07 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:31:07 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:31:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (acb2b04eb540fee56747f13fa1803f5f)] -> id: send2]
+2025-05-07 15:31:08 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:31:10 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:31:13 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (acb2b04eb540fee56747f13fa1803f5f)] -> xpath: //div[@id='block-collapsible-nav']//li]
+2025-05-07 15:31:13 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:31:13 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:31:13 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:31:15 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:31:15 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:15 INFO  LoggingManager:51 - =========================Starting test case: TC02=========================
+2025-05-07 15:31:17 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:18 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:31:18 INFO  LoggingManager:51 - Hovering over the sub-menu: Tops
+2025-05-07 15:31:18 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Hoodies & Sweatshirts
+2025-05-07 15:31:21 INFO  LoggingManager:51 - Test case TC02: completed successfully.
+2025-05-07 15:31:22 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:22 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:31:22 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:31:22 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:31:24 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (41fd578b0f3e6ea3b4138547cf3d5439)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:31:24 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:31:24 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (41fd578b0f3e6ea3b4138547cf3d5439)] -> id: email]
+2025-05-07 15:31:24 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (41fd578b0f3e6ea3b4138547cf3d5439)] -> id: pass]
+2025-05-07 15:31:24 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> id: product-addtocart-button]
+2025-05-07 15:31:27 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (41fd578b0f3e6ea3b4138547cf3d5439)] -> id: send2]
+2025-05-07 15:31:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:31:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:31:29 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:31:29 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:31:29 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:31:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:31:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> id: product-addtocart-button]
+2025-05-07 15:31:30 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:31:31 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:32 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:31:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4c1e69cc9d3972d2fc46bf3470f31d50)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:31:38 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4c1e69cc9d3972d2fc46bf3470f31d50)] -> xpath: //a[@class='action create primary']]
+2025-05-07 15:31:38 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:31:38 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:31:38 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:31:39 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:31:42 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:43 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (54aa910dc78b6ca297cac396212a882e)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:31:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3c07b95e5b27023aeaa9a86d01543dc8)] -> xpath: //div[@class='panel header']//a[normalize-space()='Create an Account']]
+2025-05-07 15:31:45 INFO  LoggingManager:51 - =========================Starting test case: TC1=========================
+2025-05-07 15:31:45 INFO  LoggingManager:51 - Entering invalid details for account creation.
+2025-05-07 15:31:45 INFO  LoggingManager:51 - First name: Kwazi, Last name: doe, Email: dddninji, Password: 
+2025-05-07 15:31:45 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3c07b95e5b27023aeaa9a86d01543dc8)] -> id: firstname]
+2025-05-07 15:31:45 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3c07b95e5b27023aeaa9a86d01543dc8)] -> id: lastname]
+2025-05-07 15:31:45 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3c07b95e5b27023aeaa9a86d01543dc8)] -> id: email_address]
+2025-05-07 15:31:46 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:46 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3c07b95e5b27023aeaa9a86d01543dc8)] -> id: password]
+2025-05-07 15:31:46 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3c07b95e5b27023aeaa9a86d01543dc8)] -> id: password-confirmation]
+2025-05-07 15:31:46 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3c07b95e5b27023aeaa9a86d01543dc8)] -> xpath: //button[@title='Create an Account']]
+2025-05-07 15:31:46 INFO  LoggingManager:51 - User is still on the Create Account page.
+2025-05-07 15:31:46 INFO  LoggingManager:51 - ============= TC1 in LoginPageTest::testLoginFunctionality PASSED! ============
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (843a98a4653bb355dcf1bea2c555dec5)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:31:48 INFO  LoggingManager:51 - =========================Starting test case: TC0=========================
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (843a98a4653bb355dcf1bea2c555dec5)] -> id: email]
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (843a98a4653bb355dcf1bea2c555dec5)] -> id: pass]
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (843a98a4653bb355dcf1bea2c555dec5)] -> id: send2]
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Checking if login was successful
+2025-05-07 15:31:48 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Checking if error message is displayed
+2025-05-07 15:31:48 INFO  LoggingManager:51 - Login was not successful.
+2025-05-07 15:31:48 INFO  LoggingManager:51 - ========= TC0 in LoginPageTest::testLoginFunctionality PASSED! ========= 
+2025-05-07 15:31:49 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:31:49 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:31:49 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:31:49 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:31:49 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:31:49 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:31:50 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:31:51 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:31:51 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:31:51 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:32:15 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:15 INFO  LoggingManager:51 - =========================Starting test case: TC03=========================
+2025-05-07 15:32:16 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:17 INFO  LoggingManager:51 - Hovering over the sub-menu: Tops
+2025-05-07 15:32:17 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Tanks
+2025-05-07 15:32:20 INFO  LoggingManager:51 - Test case TC03: completed successfully.
+2025-05-07 15:32:20 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:32:20 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:32:20 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:32:21 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:32:26 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:26 INFO  LoggingManager:51 - =========================Starting test case: TC04=========================
+2025-05-07 15:32:28 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:28 INFO  LoggingManager:51 - Hovering over the sub-menu: Tops
+2025-05-07 15:32:28 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Tees
+2025-05-07 15:32:29 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:30 INFO  LoggingManager:51 - Test case TC04: completed successfully.
+2025-05-07 15:32:30 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:32:30 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> id: email]
+2025-05-07 15:32:31 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> id: pass]
+2025-05-07 15:32:31 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:32:31 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:32:31 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:32:32 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:32 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:32:32 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4c21a277642896197d1c130e32be1ad6)] -> xpath: //div[@class='panel header']//a[normalize-space()='Create an Account']]
+2025-05-07 15:32:32 INFO  LoggingManager:51 - =========================Starting test case: TC2=========================
+2025-05-07 15:32:32 INFO  LoggingManager:51 - Entering invalid details for account creation.
+2025-05-07 15:32:32 INFO  LoggingManager:51 - First name: Kwazi, Last name: doe, Email: kwazidoe@gmail.com, Password: a
+2025-05-07 15:32:33 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4c21a277642896197d1c130e32be1ad6)] -> id: firstname]
+2025-05-07 15:32:33 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4c21a277642896197d1c130e32be1ad6)] -> id: lastname]
+2025-05-07 15:32:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> id: send2]
+2025-05-07 15:32:33 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4c21a277642896197d1c130e32be1ad6)] -> id: email_address]
+2025-05-07 15:32:33 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (5391980639e335d64ca270cdcc9796fe)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:32:34 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4c21a277642896197d1c130e32be1ad6)] -> id: password]
+2025-05-07 15:32:34 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (5391980639e335d64ca270cdcc9796fe)] -> id: email]
+2025-05-07 15:32:34 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4c21a277642896197d1c130e32be1ad6)] -> id: password-confirmation]
+2025-05-07 15:32:34 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (5391980639e335d64ca270cdcc9796fe)] -> id: pass]
+2025-05-07 15:32:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4c21a277642896197d1c130e32be1ad6)] -> xpath: //button[@title='Create an Account']]
+2025-05-07 15:32:34 INFO  LoggingManager:51 - User is still on the Create Account page.
+2025-05-07 15:32:34 INFO  LoggingManager:51 - ============= TC2 in LoginPageTest::testLoginFunctionality PASSED! ============
+2025-05-07 15:32:34 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:32:34 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:32:34 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:32:35 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (a93190996058f9767fb6351eccf7721b)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:32:35 INFO  LoggingManager:51 - =========================Starting test case: TC1=========================
+2025-05-07 15:32:36 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (a93190996058f9767fb6351eccf7721b)] -> id: email]
+2025-05-07 15:32:36 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (a93190996058f9767fb6351eccf7721b)] -> id: pass]
+2025-05-07 15:32:37 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (a93190996058f9767fb6351eccf7721b)] -> id: send2]
+2025-05-07 15:32:37 INFO  LoggingManager:51 - Checking if login was successful
+2025-05-07 15:32:37 INFO  LoggingManager:51 - Checking if error message is displayed
+2025-05-07 15:32:37 INFO  LoggingManager:51 - Login was not successful.
+2025-05-07 15:32:37 INFO  LoggingManager:51 - ========= TC1 in LoginPageTest::testLoginFunctionality PASSED! ========= 
+2025-05-07 15:32:37 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (5391980639e335d64ca270cdcc9796fe)] -> id: send2]
+2025-05-07 15:32:37 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:32:38 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (5391980639e335d64ca270cdcc9796fe)] -> xpath: //div[@class='panel header']//span[@class='logged-in']]
+2025-05-07 15:32:40 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:32:40 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:32:40 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:32:42 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:32:47 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:32:49 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:32:49 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:32:49 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:32:51 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:32:55 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:32:55 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:32:59 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:32:59 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> id: email]
+2025-05-07 15:32:59 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> id: pass]
+2025-05-07 15:33:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> id: product-addtocart-button]
+2025-05-07 15:33:02 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> id: send2]
+2025-05-07 15:33:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:33:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:33:07 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:33:07 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> id: product-addtocart-button]
+2025-05-07 15:33:10 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:33:14 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:33:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:33:17 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:33:18 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //button[@class='button action continue primary']]
+2025-05-07 15:33:19 ERROR LoggingManager:83 - Failed to click element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //button[@class='button action continue primary']] element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (898, 494). Other element would receive the click: <div id="checkout-shipping-method-load">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06d5c323549bbd9636cad6028a306523, clickElement {id=f.C0F2FE6A54EDC81C46C1589740D20404.d.82A77561A85D63E614FF8F175DA515A0.e.745}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\KWAZIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51619}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51619/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (06d5c323549bbd9636cad6028a306523)] -> xpath: //button[@class='button action continue primary']]
+Session ID: 06d5c323549bbd9636cad6028a306523
+2025-05-07 15:33:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e0233eee3e75a63195b5970e6400f855)] -> xpath: //div[@class='panel header']//a[normalize-space()='Create an Account']]
+2025-05-07 15:33:20 INFO  LoggingManager:51 - =========================Starting test case: TC3=========================
+2025-05-07 15:33:20 INFO  LoggingManager:51 - Entering invalid details for account creation.
+2025-05-07 15:33:20 INFO  LoggingManager:51 - First name: Kwazi, Last name: doe, Email: kwazidoe@gmail.com, Password: password123
+2025-05-07 15:33:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e0233eee3e75a63195b5970e6400f855)] -> id: firstname]
+2025-05-07 15:33:20 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:33:20 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:33:20 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:33:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e0233eee3e75a63195b5970e6400f855)] -> id: lastname]
+2025-05-07 15:33:20 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:33:20 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e0233eee3e75a63195b5970e6400f855)] -> id: email_address]
+2025-05-07 15:33:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e0233eee3e75a63195b5970e6400f855)] -> id: password]
+2025-05-07 15:33:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (e0233eee3e75a63195b5970e6400f855)] -> id: password-confirmation]
+2025-05-07 15:33:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (e0233eee3e75a63195b5970e6400f855)] -> xpath: //button[@title='Create an Account']]
+2025-05-07 15:33:21 INFO  LoggingManager:51 - User is still on the Create Account page.
+2025-05-07 15:33:21 INFO  LoggingManager:51 - ============= TC3 in LoginPageTest::testLoginFunctionality PASSED! ============
+2025-05-07 15:33:21 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:33:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3a20d0ed83af420d4740a3c0311e9396)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:33:22 INFO  LoggingManager:51 - =========================Starting test case: TC2=========================
+2025-05-07 15:33:22 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3a20d0ed83af420d4740a3c0311e9396)] -> id: email]
+2025-05-07 15:33:22 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3a20d0ed83af420d4740a3c0311e9396)] -> id: pass]
+2025-05-07 15:33:22 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:33:22 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:33:22 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:33:22 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3a20d0ed83af420d4740a3c0311e9396)] -> id: send2]
+2025-05-07 15:33:22 INFO  LoggingManager:51 - Checking if login was successful
+2025-05-07 15:33:22 INFO  LoggingManager:51 - Checking if error message is displayed
+2025-05-07 15:33:23 INFO  LoggingManager:51 - Login was not successful.
+2025-05-07 15:33:23 INFO  LoggingManager:51 - ========= TC2 in LoginPageTest::testLoginFunctionality PASSED! ========= 
+2025-05-07 15:33:23 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:33:23 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:33:23 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:33:23 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:33:24 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:33:24 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:33:24 INFO  LoggingManager:51 - =========================Starting test case: TC05=========================
+2025-05-07 15:33:25 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:33:26 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:33:27 INFO  LoggingManager:51 - Hovering over the sub-menu: Bottoms
+2025-05-07 15:33:27 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Pants
+2025-05-07 15:33:27 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:33:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:33:29 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> id: email]
+2025-05-07 15:33:29 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> id: pass]
+2025-05-07 15:33:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> id: product-addtocart-button]
+2025-05-07 15:33:30 INFO  LoggingManager:51 - Test case TC05: completed successfully.
+2025-05-07 15:33:30 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:33:30 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:33:30 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:33:32 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:33:32 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:33:32 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> id: send2]
+2025-05-07 15:33:34 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3bd337b808ca06208b9919b2500b27d0)] -> xpath: //div[@class='panel header']//a[normalize-space()='Create an Account']]
+2025-05-07 15:33:34 INFO  LoggingManager:51 - =========================Starting test case: TC4=========================
+2025-05-07 15:33:34 INFO  LoggingManager:51 - Entering invalid details for account creation.
+2025-05-07 15:33:34 INFO  LoggingManager:51 - First name: Kwazi, Last name: doe, Email: kwazidoe@gmail.com, Password: Password123
+2025-05-07 15:33:34 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3bd337b808ca06208b9919b2500b27d0)] -> id: firstname]
+2025-05-07 15:33:34 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3bd337b808ca06208b9919b2500b27d0)] -> id: lastname]
+2025-05-07 15:33:35 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3bd337b808ca06208b9919b2500b27d0)] -> id: email_address]
+2025-05-07 15:33:35 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3bd337b808ca06208b9919b2500b27d0)] -> id: password]
+2025-05-07 15:33:35 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:33:35 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3bd337b808ca06208b9919b2500b27d0)] -> id: password-confirmation]
+2025-05-07 15:33:35 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:33:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:33:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (3bd337b808ca06208b9919b2500b27d0)] -> xpath: //button[@title='Create an Account']]
+2025-05-07 15:33:36 INFO  LoggingManager:51 - User is still on the Create Account page.
+2025-05-07 15:33:36 INFO  LoggingManager:51 - ============= TC4 in LoginPageTest::testLoginFunctionality PASSED! ============
+2025-05-07 15:33:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> id: product-addtocart-button]
+2025-05-07 15:33:38 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:33:38 INFO  LoggingManager:51 - =========================Starting test case: TC06=========================
+2025-05-07 15:33:40 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:33:42 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:33:46 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:33:46 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //button[@class='button action continue primary']]
+2025-05-07 15:33:46 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (bc732e09b9d5e050e2ace5db54349d32)] -> xpath: //button[@class='button action continue primary']]
+2025-05-07 15:33:50 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:33:50 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:33:50 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:33:52 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:33:54 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:33:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:33:59 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:34:00 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> id: email]
+2025-05-07 15:34:01 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> id: pass]
+2025-05-07 15:34:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:34:03 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> id: send2]
+2025-05-07 15:34:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> id: product-addtocart-button]
+2025-05-07 15:34:10 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:34:12 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:34:12 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:34:12 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:34:12 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> id: product-addtocart-button]
+2025-05-07 15:34:16 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> id: product-addtocart-button]
+2025-05-07 15:34:16 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //table[@id ='shopping-cart-table']//tbody//a[@title ='Remove item']]
+2025-05-07 15:34:19 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:34:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:34:19 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:34:20 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> id: product-addtocart-button]
+2025-05-07 15:34:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (11fd49ad9dd38fcd6e51da09b1d1fab6)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:34:21 INFO  LoggingManager:51 - =========================Starting test case: TC3=========================
+2025-05-07 15:34:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (11fd49ad9dd38fcd6e51da09b1d1fab6)] -> id: email]
+2025-05-07 15:34:21 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (11fd49ad9dd38fcd6e51da09b1d1fab6)] -> id: pass]
+2025-05-07 15:34:23 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (11fd49ad9dd38fcd6e51da09b1d1fab6)] -> id: send2]
+2025-05-07 15:34:23 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:34:23 INFO  LoggingManager:51 - Checking if login was successful
+2025-05-07 15:34:23 INFO  LoggingManager:51 - Checking if error message is displayed
+2025-05-07 15:34:23 INFO  LoggingManager:51 - Login was not successful.
+2025-05-07 15:34:23 INFO  LoggingManager:51 - ========= TC3 in LoginPageTest::testLoginFunctionality PASSED! ========= 
+2025-05-07 15:34:24 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:34:24 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:34:24 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:34:25 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:34:26 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (4abf934f0239bcc4c155bab629b5931f)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:34:27 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (736ff78d982f6c8908fc58c41e2e41e6)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:34:28 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:28 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:34:28 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:34:28 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:34:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (fad7350ee51c6246e00e48ad0fac3b10)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:34:29 INFO  LoggingManager:51 - =========================Starting test case: TC4=========================
+2025-05-07 15:34:29 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (fad7350ee51c6246e00e48ad0fac3b10)] -> id: email]
+2025-05-07 15:34:30 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (fad7350ee51c6246e00e48ad0fac3b10)] -> id: pass]
+2025-05-07 15:34:30 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:34:30 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:31 INFO  LoggingManager:51 - Hovering over the sub-menu: Bottoms
+2025-05-07 15:34:31 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Shorts
+2025-05-07 15:34:32 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (fad7350ee51c6246e00e48ad0fac3b10)] -> id: send2]
+2025-05-07 15:34:34 INFO  LoggingManager:51 - Checking if login was successful
+2025-05-07 15:34:34 INFO  LoggingManager:51 - Test case TC06: completed successfully.
+2025-05-07 15:34:34 INFO  LoggingManager:51 - Login was successful.
+2025-05-07 15:34:34 INFO  LoggingManager:51 - ========= TC4 in LoginPageTest::testLoginFunctionality PASSED! ========= 
+2025-05-07 15:34:35 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:34:36 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:36 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:34:36 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:34:36 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:34:37 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:34:37 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> id: email]
+2025-05-07 15:34:38 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> id: pass]
+2025-05-07 15:34:38 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:34:40 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> id: send2]
+2025-05-07 15:34:44 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:44 INFO  LoggingManager:51 - =========================Starting test case: TC07=========================
+2025-05-07 15:34:45 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:45 INFO  LoggingManager:51 - Hovering over the sub-menu: Tops
+2025-05-07 15:34:46 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Jackets
+2025-05-07 15:34:46 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:34:47 INFO  LoggingManager:51 - Test case TC07: completed successfully.
+2025-05-07 15:34:48 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:34:48 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:34:48 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:34:49 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:34:51 ERROR LoggingManager:83 - Failed to scroll to element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='button action continue primary']' Expected condition failed: Timeout after 20 seconds waiting for condition (tried for 20 second(s) with 500 milliseconds interval)
+2025-05-07 15:34:52 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> id: product-addtocart-button]
+2025-05-07 15:34:52 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:52 INFO  LoggingManager:51 - =========================Starting test case: TC08=========================
+2025-05-07 15:34:54 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:34:55 INFO  LoggingManager:51 - Hovering over the sub-menu: Tops
+2025-05-07 15:34:55 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Hoodies & Sweatshirts
+2025-05-07 15:34:55 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:34:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:34:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:34:56 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> id: product-addtocart-button]
+2025-05-07 15:34:57 INFO  LoggingManager:51 - Test case TC08: completed successfully.
+2025-05-07 15:34:57 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:34:57 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:34:57 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:34:59 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:35:03 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:35:06 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (10b17edde35a9f9577238ca410bed87b)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:35:08 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:35:08 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:35:08 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:35:10 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:35:31 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:35:31 INFO  LoggingManager:51 - =========================Starting test case: TC09=========================
+2025-05-07 15:35:41 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:35:42 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:35:42 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> id: email]
+2025-05-07 15:35:42 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> id: pass]
+2025-05-07 15:35:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> id: send2]
+2025-05-07 15:35:51 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:35:57 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> id: product-addtocart-button]
+2025-05-07 15:35:58 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:35:59 INFO  LoggingManager:51 - Hovering over the sub-menu: Tops
+2025-05-07 15:35:59 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Bras & Tanks
+2025-05-07 15:36:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:36:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:36:01 INFO  LoggingManager:51 - Test case TC09: completed successfully.
+2025-05-07 15:36:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:36:01 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> id: product-addtocart-button]
+2025-05-07 15:36:01 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:36:01 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:36:01 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:36:03 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:36:06 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:36:06 INFO  LoggingManager:51 - =========================Starting test case: TC10=========================
+2025-05-07 15:36:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:36:09 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:36:09 INFO  LoggingManager:51 - Hovering over the sub-menu: Tops
+2025-05-07 15:36:09 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Tees
+2025-05-07 15:36:11 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (085c423778e4ddff8bb2711a23a0ec73)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:36:12 INFO  LoggingManager:51 - Test case TC10: completed successfully.
+2025-05-07 15:36:12 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:36:12 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:36:12 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:36:13 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:36:13 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:36:13 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:36:13 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:36:14 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:36:20 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:36:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:36:22 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> id: email]
+2025-05-07 15:36:22 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> id: pass]
+2025-05-07 15:36:24 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> id: send2]
+2025-05-07 15:36:29 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:36:36 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> id: product-addtocart-button]
+2025-05-07 15:36:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:36:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:36:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:36:39 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> id: product-addtocart-button]
+2025-05-07 15:36:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:36:45 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (30bbea991c4d1147b89afa34503c1809)] -> xpath: //div[@class ='actions-toolbar']//a[@title ='Remove item']]
+2025-05-07 15:36:53 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:36:53 INFO  LoggingManager:51 - =========================Starting test case: TC11=========================
+2025-05-07 15:36:54 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:36:54 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:36:54 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:36:56 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:37:04 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:37:05 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:37:06 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> id: email]
+2025-05-07 15:37:06 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> id: pass]
+2025-05-07 15:37:08 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> id: send2]
+2025-05-07 15:37:14 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:37:21 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> id: product-addtocart-button]
+2025-05-07 15:37:23 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> xpath: //a[@class ='product-item-link']]
+2025-05-07 15:37:24 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'text')]]
+2025-05-07 15:37:24 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> xpath: //div[contains(@class, 'swatch-option') and contains(@class, 'color')]]
+2025-05-07 15:37:24 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> id: product-addtocart-button]
+2025-05-07 15:37:25 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:37:26 INFO  LoggingManager:51 - Hovering over the sub-menu: Bottoms
+2025-05-07 15:37:26 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Pants
+2025-05-07 15:37:28 INFO  LoggingManager:51 - Successfully performed scroll to on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:37:28 INFO  LoggingManager:51 - Test case TC11: completed successfully.
+2025-05-07 15:37:28 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:37:28 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:37:28 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:37:30 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:37:33 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (77e97e5b187906f47d012038a350d39d)] -> xpath: //button[@data-role='proceed-to-checkout']]
+2025-05-07 15:37:34 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:37:34 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:37:34 INFO  LoggingManager:51 - =========================Starting test case: TC12=========================
+2025-05-07 15:37:36 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:37:36 INFO  LoggingManager:51 - Hovering over the sub-menu: Bottoms
+2025-05-07 15:37:36 INFO  LoggingManager:51 - Clicking on the sub-sub-menu: Shorts
+2025-05-07 15:37:38 INFO  LoggingManager:51 - Test case TC12: completed successfully.
+2025-05-07 15:37:38 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:37:38 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:37:38 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:37:40 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:37:44 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:37:44 INFO  LoggingManager:51 - =========================Starting test case: TC13=========================
+2025-05-07 15:37:46 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:37:46 INFO  LoggingManager:51 - Hovering over the sub-menu: Bags
+2025-05-07 15:37:47 INFO  LoggingManager:51 - Clicking on the sub-menu: Bags
+2025-05-07 15:37:49 INFO  LoggingManager:51 - Test case TC13: completed successfully.
+2025-05-07 15:37:49 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:37:49 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:37:49 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:37:50 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:37:57 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:37:57 INFO  LoggingManager:51 - =========================Starting test case: TC14=========================
+2025-05-07 15:37:58 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:37:59 INFO  LoggingManager:51 - Hovering over the sub-menu: Fitness Equipment
+2025-05-07 15:37:59 INFO  LoggingManager:51 - Clicking on the sub-menu: Fitness Equipment
+2025-05-07 15:38:00 INFO  LoggingManager:51 - Test case TC14: completed successfully.
+2025-05-07 15:38:01 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:38:01 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:38:01 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:38:02 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:38:08 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:08 INFO  LoggingManager:51 - =========================Starting test case: TC15=========================
+2025-05-07 15:38:09 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:10 INFO  LoggingManager:51 - Hovering over the sub-menu: Watches
+2025-05-07 15:38:10 INFO  LoggingManager:51 - Clicking on the sub-menu: Watches
+2025-05-07 15:38:12 INFO  LoggingManager:51 - Test case TC15: completed successfully.
+2025-05-07 15:38:12 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:38:12 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:38:12 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:38:13 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:38:16 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:16 INFO  LoggingManager:51 - =========================Starting test case: TC16=========================
+2025-05-07 15:38:19 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:20 INFO  LoggingManager:51 - Hovering over the sub-menu: Video Download
+2025-05-07 15:38:20 INFO  LoggingManager:51 - Clicking on the sub-menu: Video Download
+2025-05-07 15:38:21 INFO  LoggingManager:51 - Test case TC16: completed successfully.
+2025-05-07 15:38:21 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:38:21 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:38:21 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:38:22 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:38:25 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:25 INFO  LoggingManager:51 - =========================Starting test case: TC17=========================
+2025-05-07 15:38:27 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:27 INFO  LoggingManager:51 - Clicking on main menu item without submenu
+2025-05-07 15:38:28 INFO  LoggingManager:51 - Test case TC17: completed successfully.
+2025-05-07 15:38:29 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:38:29 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:38:29 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:38:30 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:38:33 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:33 INFO  LoggingManager:51 - =========================Starting test case: TC18=========================
+2025-05-07 15:38:36 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:36 INFO  LoggingManager:51 - Clicking on main menu item without submenu
+2025-05-07 15:38:38 INFO  LoggingManager:51 - Test case TC18: completed successfully.
+2025-05-07 15:38:38 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:38:38 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:38:38 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:38:40 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:38:44 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:44 INFO  LoggingManager:51 - Verifying that the logo is displayed.
+2025-05-07 15:38:44 INFO  LoggingManager:51 - Logo is displayed successfully.
+2025-05-07 15:38:44 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:38:44 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:38:44 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:38:45 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:38:52 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:52 INFO  LoggingManager:51 - Clicking the Sign In link.
+2025-05-07 15:38:53 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (c4f0ee3562ec86cdfad50ef52778d5ab)] -> xpath: //div[@class='panel header']//a[contains(text(),'Sign In')]]
+2025-05-07 15:38:53 INFO  LoggingManager:51 - Sign In page is displayed successfully.
+2025-05-07 15:38:54 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:38:54 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:38:54 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:38:55 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:38:57 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:38:57 INFO  LoggingManager:51 - Clicking the Create Account link.
+2025-05-07 15:39:00 INFO  LoggingManager:51 - Successfully performed click on element: [[ChromeDriver: chrome on windows (78df34443e130b9f2c2f8f0a58d6341c)] -> xpath: //div[@class='panel header']//a[normalize-space()='Create an Account']]
+2025-05-07 15:39:00 INFO  LoggingManager:51 - Create Account page is displayed successfully.
+2025-05-07 15:39:00 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:39:00 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:39:00 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:39:02 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:39:04 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:39:04 INFO  LoggingManager:51 - =========================testSearchFunctionality():: Starting test case: TC0=========================
+2025-05-07 15:39:04 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (3422c6de10b0f4327e4e6d13c330d7da)] -> id: search]
+2025-05-07 15:39:07 INFO  LoggingManager:51 - Product is displayed in search results successfully.
+2025-05-07 15:39:07 INFO  LoggingManager:51 - testSearchFunctionality():: Test case TC0: completed successfully.
+2025-05-07 15:39:07 INFO  LoggingManager:51 - WebDriver quit successfully
+2025-05-07 15:39:07 INFO  LoggingManager:51 - Running tests on browser: chrome
+2025-05-07 15:39:07 INFO  LoggingManager:51 - Initializing chrome browser in normal mode
+2025-05-07 15:39:08 INFO  LoggingManager:51 - WebDriver configured successfully
+2025-05-07 15:39:11 INFO  LoggingManager:51 - Navigated to URL:https://magento.softwaretestingboard.com/ 
+2025-05-07 15:39:11 INFO  LoggingManager:51 - =========================testSearchFunctionality():: Starting test case: TC1=========================
+2025-05-07 15:39:11 INFO  LoggingManager:51 - Successfully performed send keys to on element: [[ChromeDriver: chrome on windows (61e451ef997477ec1752bc7cc1083e24)] -> id: search]
+2025-05-07 15:39:12 INFO  LoggingManager:51 - No results message is displayed successfully.
+2025-05-07 15:39:12 INFO  LoggingManager:51 - testSearchFunctionality():: Test case TC1: completed successfully.
+2025-05-07 15:39:12 INFO  LoggingManager:51 - WebDriver quit successfully

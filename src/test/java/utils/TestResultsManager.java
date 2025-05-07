@@ -12,9 +12,9 @@ public class TestResultsManager {
     private static final String ARCHIVED_RESULTS_PATH = "reports/Archived_Test_Results";
 
     public static void manageTestResults() {
-        File currentResultsDir = new File(CURRENT_RESULTS_PATH);
+       
+    	File currentResultsDir = new File(CURRENT_RESULTS_PATH);
         File archivedResultsDir = new File(ARCHIVED_RESULTS_PATH);
-
         // Ensure the Archived_Test_Results directory exists
         if (!archivedResultsDir.exists()) {
             archivedResultsDir.mkdirs();
@@ -36,7 +36,8 @@ public class TestResultsManager {
 
         // Clean Current_Test_Results folder
         for (File file : currentResultsDir.listFiles()) {
-            if (file.isFile()) {
+            
+        	if (file.isFile()) {
                 file.delete();
             }
         }

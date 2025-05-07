@@ -1,4 +1,4 @@
-package tests;
+package tests.pages;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

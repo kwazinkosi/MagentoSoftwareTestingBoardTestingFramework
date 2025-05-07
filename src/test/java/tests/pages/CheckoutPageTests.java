@@ -1,4 +1,4 @@
-package tests;
+package tests.pages;
 
 import java.util.List;
 

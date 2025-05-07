@@ -1,10 +1,9 @@
-package tests;
+package tests.pages;
 
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -69,18 +68,10 @@ public class CheckoutOverviewPageTests extends BaseTest {
 		}
 	}
 	
-//	@AfterMethod
-//	public void tearDown() {
-//		// Clear the cart after each test
-//		if (!cartPage.isCartEmpty()) {
-//			cartPage.clearCart();
-//		}
-//	}
-	
 	@Test(priority = 0, description = "Verify payment summary is displayed correctly")
 	public void testPaymentSummary() {
+		// Verify the payment summary is displayed correctly
 		logStep("Testing payment summary");
-
 		String paymentSummary = checkoutOverviewPage.getPaymentSummary();
 		logStep("Payment Summary: " + paymentSummary);
 
@@ -92,11 +83,11 @@ public class CheckoutOverviewPageTests extends BaseTest {
 		Assert.assertTrue(paymentSummary.contains("Order Total: " + EXPECTED_ORDER_TOTAL),
 				"Payment summary should contain order total");
 		Assert.assertEquals(paymentSummary, EXPECTED_PAYMENT_SUMMARY, "Payment summary should match expected value");
-
 	}
 
 	@Test(priority = 1, description = "Verify the total amount is displayed correctly")
 	public void testTotalAmount() {
+		
 		logStep("Testing total amount");
 
 		double totalAmount = checkoutOverviewPage.getTotal();

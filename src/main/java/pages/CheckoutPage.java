@@ -25,12 +25,12 @@ public class CheckoutPage extends BasePage {
 
 	@Override
 	public boolean isPageDisplayed() {
+		
 		return customWait.until(
 				d -> d.getTitle().contains("Checkout") && isElementDisplayed(summaryBlock)
 						&& isElementDisplayed(shippingAddressBlock) && isElementDisplayed(continueButton),
 				WaitTime.NORMAL);
 	}
-
 
 	public BasePage continueToOverview() {
 
@@ -46,6 +46,4 @@ public class CheckoutPage extends BasePage {
 			throw new RuntimeException("An unexpected error occurred: " + e.getMessage());
 		}
 	}
-
-
 }
